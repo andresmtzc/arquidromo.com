@@ -74,17 +74,25 @@
 	}
 	
 	#container {
-		width:100px;
-		height:100px;
+		position:absolute;
 		margin-left: -moz-calc(50% - 450px);
 		margin-left: -webkit-calc(50% - 450px);
 		margin-left: calc(50% - 450px);
+		margin-top: -moz-calc(50% - 330px);
+		margin-top: -webkit-calc(50% - 330px);
+		margin-top: calc(50% - 330px);
 	}
 	
 	#banner {
+		position:absolute;
+		margin-left: -moz-calc(50% - 450px);
+		margin-left: -webkit-calc(50% - 450px);
+		margin-left: calc(50% - 450px);
+		margin-top:0px;
 		width:206px;
 		height:35px;
 		background:url(./banner.jpg);
+		z-index:1;
 	}
 	
 
@@ -95,11 +103,8 @@
 <body>
 
 
-	
-	<div id="container">
 	<div id="banner"></div>
-<p></p>
-
+	<div id="container">
 	<ul id="myGallery">
             <li><img data-frame="./1.jpg" src="./1.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
             <li><img data-frame="./2.jpg" src="./2.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
