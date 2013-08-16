@@ -23,6 +23,9 @@
 <!-- Lastly, call the galleryView() function on your unordered list(s) -->
 <script type="text/javascript">
 	$(function(){
+		
+		
+		
 		$('#myGallery').galleryView({
 		transition_speed: 2000, 		//INT - duration of panel/frame transition (in milliseconds)
 		transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
@@ -55,22 +58,48 @@
 		frame_gap: 0, 					//INT - spacing between frames within filmstrip (in pixels)
 		show_infobar: false,				//BOOLEAN - flag to show or hide infobar
 		infobar_opacity: 1				//FLOAT - transparency for info bar
+		
+		
 		});
+		
 	});
 </script>
+
+
 
 <style type="text/css">
 	body { 
 		margin: 2em; 
 		font-family: Arial, Helvetica, sans-serif;
 	}
+	
+	#container {
+		width:100px;
+		height:100px;
+		margin-left: -moz-calc(50% - 450px);
+		margin-left: -webkit-calc(50% - 450px);
+		margin-left: calc(50% - 450px);
+	}
+	
+	#banner {
+		width:206px;
+		height:35px;
+		background:url(./banner.jpg);
+	}
+	
+
+	
 </style>
 </head>
 
 <body>
-	<h>arquidromo</h>
-	<p></p>
-	<p></p>
+
+
+	
+	<div id="container">
+	<div id="banner"></div>
+<p></p>
+
 	<ul id="myGallery">
             <li><img data-frame="./1.jpg" src="./1.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
             <li><img data-frame="./2.jpg" src="./2.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
@@ -83,6 +112,6 @@
             <li><img data-frame="./9.jpg" src="./9.jpg" title="New Orleans Streetcar" data-description="This is a streetcar in New Orleans traveling back towards The Quarter on St. Charles Ave. I held the camera against the window sill, making sure to divide the image equally between the inside and the outside. New Orleans, Louisiana. (Photo and caption by Don Chamblee/Places/National Geographic Photo Contest)" />
            
         </ul>
-
+	</div>
 </body>
 </html>
