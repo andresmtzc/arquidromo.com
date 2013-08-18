@@ -34,8 +34,8 @@
 		show_panel_nav: true, 			//BOOLEAN - flag to show or hide panel navigation buttons
 		enable_overlays: false, 			//BOOLEAN - flag to show or hide panel overlays
 		
-		panel_width: 900, 				//INT - width of gallery panel (in pixels)
-		panel_height: 600, 				//INT - height of gallery panel (in pixels)
+		panel_width: 850, 				//INT - width of gallery panel (in pixels)
+		panel_height: 550, 				//INT - height of gallery panel (in pixels)
 		panel_animation: 'crossfade', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
 		panel_scale: 'crop', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
 		overlay_position: 'bottom', 	//STRING - position of panel overlay (bottom, top)
@@ -71,49 +71,72 @@
 
 	body{
 font-family: 'geogramregular';
-font-size:25px;
+font-size:30px;
+
 			}
+			
+				.small{
+			font-size:15px;
+						}
+						
+				
+						#text {
+						float:left;
+						}
+						
+						#text2{
+							float:left;
+							font-family:"courier new";
+						
+						}
 	
 	#container {
 		position:absolute;
 		left:50%;
-		margin-left:-450px;
+		margin-left:-425px;
 		top:50%;
-		margin-top:-320px;
+		margin-top:-325px;
+		width:850px;
 	}
 	
-	@font-face{ 
-		font-family: 'geogramregular';
-		src: url('geogramregular.eot');
-		src: url('geogramregular.eot?#iefix') format('embedded-opentype'),
-		     url('geogramregular.woff') format('woff'),
-		     url('geogramregular.ttf') format('truetype'),
-		     url('geogramregular.svg#webfont') format('svg');
-	}
+
 	
 	#underline {
 		width:100%;
-		height:2px;
+		height:1px;
 		background-color:black;
 	}
+	
+	#space {
+		height:10px;
+	}
+	
+	#banner {
+		background-color:#fff200;
+		width:184px;
+		text-color:#231f20;
+	}
+	
+
 
 	
 </style>
 </head>
 
-<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
 
 
 	
 	
 <body>
 
-
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 	
 	<div id="container">
-		<div id="header">arquidromo	</div>
+		<div id="banner">arquidromo</div>
+		<div id="space"></div>
 		<div id="underline"></div>
-		<p></p>
+		<div id="space"></div>
 	<ul id="myGallery">
             <li><img data-frame="./1.jpg" src="./1.jpg" title="Lone Tree Yellowstone" data-description="A solitary tree surviving another harsh winter in Yellowstone National Park. Yellowstone National Park, Wyoming. (Photo and caption by Anita Erdmann/Nature/National Geographic Photo Contest) " />
             <li><img data-frame="./2.jpg" src="./2.jpg" title="Is He Still There?!" data-description="One morning while on the Big Island of Hawaii, i exploring my surroundings to see if i could find something to photograph. I almost went back inside when something on this huge palm tree leaf caught my eye. I stayed around and it was this little gecko, startled by my presence he was hidden between the ridges of the leaf. He would pop his head up periodically to check his surroundings, as soon as he saw i was still there he would hide again. We played this game for a while until i got the shot. Holualoa big Island, Hawaii. (Photo and caption by Lorenzo Menendez/Nature/National Geographic Photo Contest)" />
@@ -126,6 +149,14 @@ font-size:25px;
             <li><img data-frame="./9.jpg" src="./9.jpg" title="New Orleans Streetcar" data-description="This is a streetcar in New Orleans traveling back towards The Quarter on St. Charles Ave. I held the camera against the window sill, making sure to divide the image equally between the inside and the outside. New Orleans, Louisiana. (Photo and caption by Don Chamblee/Places/National Geographic Photo Contest)" />
            
         </ul>
+		<div id="space"></div>
+		<div id="underline"></div>
+		<div id="space"></div>
+		<div id="text" class="small">arquidromo.com / benito juarez #</div>
+		<div id="text2" class="small">123&nbsp;</div>
+		<div id="text" class="small">col. lomas de tampiquito / monterrey, nl, mx /</div> 
+		<div id="text2" class="small">&nbsp;83352342&nbsp;</div>
+		<div id="text" class="small"> / info@arquidromo.com</div>
 	</div>
 </body>
 </html>
