@@ -46,7 +46,12 @@ body h1,body h2,body h3,body h4{color:#000}body h1 a,body h2 a,body h3 a,body h4
 
 #navigator .siteTitle h1{display:inline-block;color:#000;margin:0;font-size:15px;font-family:"Helvetica Neue",Helvetica,sans-serif;font-weight:bold;line-height:1em;text-transform:none;font-family:"Fjalla One";font-size:28px;line-height:.5em;letter-spacing:0px;font-weight:400;font-style:normal;text-align:right}#navigator h2.logo-subtitle{font-size:15px;font-family:"Helvetica Neue",Helvetica,sans-serif;font-weight:normal;line-height:1em;text-transform:none;font-family:"Fjalla One";font-size:21px;line-height:1.6em;letter-spacing:0px;font-weight:400;font-style:normal;text-align:right;margin:.75em 0 0;color:#f11e1e}
 
-.site-titlelogo-position-left #navigator .siteTitle{float:left;text-align:left;padding:15px 0}.site-titlelogo-position-left #navigator .siteTitle h1{text-align:left}.site-titlelogo-position-left #navigator .siteTitle h2.logo-subtitle{text-align:left}.site-titlelogo-position-left #navigator .siteTitle header#topBar ul#nav{float:none}#container{max-width:1200px;margin:85px 0 0px 0;overflow:hidden}.site-alignment-center #container{margin:85px auto 0}#container-content{padding:85px 30px 23px 30px}#grid{z-index:3;background-color:#f3f3f3;}
+.site-titlelogo-position-left #navigator .siteTitle{
+position:absolute;
+margin-top:-4px;
+;text-align:left;padding:15px 0}
+
+.site-titlelogo-position-left #navigator .siteTitle h1{text-align:left}.site-titlelogo-position-left #navigator .siteTitle h2.logo-subtitle{text-align:left}.site-titlelogo-position-left #navigator .siteTitle header#topBar ul#nav{float:none}#container{max-width:1200px;margin:85px 0 0px 0;overflow:hidden}.site-alignment-center #container{margin:85px auto 0}#container-content{padding:85px 30px 23px 30px}#grid{z-index:3;background-color:#f3f3f3;}
 
 
 
