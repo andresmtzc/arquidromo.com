@@ -107,11 +107,7 @@ body.project-hover-zoom .loaded #grid .item.hovering .wrapper
 
 .siteTitle{margin:0 20px;float:none;padding:25px 0 20px;max-width:100%;text-align:center}#navigator .siteTitle h1{text-align:center}#navigator .siteTitle h2.logo-subtitle{text-align:center}#navigator .siteTitle img{height:auto;max-height:100px}#navigator header#topBar ul#nav{float:none;max-width:none;text-align:center}#navigator article .sidebar .social-like{margin-top:5px}#navigator blockquote{margin:20px}#navigator .pagination{width:auto;margin-left:0}#navigator article .main{margin:0 0 25px 0}#navigator footer#bottomBar{bottom:0;position:relative}#navigator header#topBar{position:absolute}#navigator .sqs-block.quote-block .sqs-block-content .source{margin:0}.blog-borders #navigator article .sidebar{border-width:0;padding:0}#project .project-item>.meta{padding:20px 20px 0 20px;margin:20px 0}#project .gallery{padding:20px 5px;padding-bottom:0}#project .gallery .gallery-item{margin-bottom:5px}
 
-.site-titlelogo-position-left #navigator .siteTitle{margin: 17px -15px;
-/* float: none; */
-/* padding: 0px  20px; */
-/* max-width: 100%; */
-position:absolute;
+.site-titlelogo-position-left #navigator .siteTitle{margin: -20px 30px;
 z-index:1;
 -webkit-transform: scale(.75,.75);
 transform: scale(.75,.75);
