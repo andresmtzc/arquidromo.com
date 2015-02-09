@@ -2627,6 +2627,10 @@
 				if(data.settings.onSliderUpdate != '') {
 			    	data.settings.onSliderUpdate(args);
 			    }
+			
+			    $(window).load(function() {
+			        $('.iosSlider').iosSlider('update');
+			    });
 		    	
 			});
 		
