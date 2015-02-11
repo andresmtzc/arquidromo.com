@@ -423,6 +423,22 @@ height:0px;
 	background-color: #161718;
 }
 
+.tx
+{       
+    position: absolute;
+    text-align: center;
+    padding-top:100%;
+    -webkit-transform: translateY(-50%); /* child now centers itself relative to the midline based on own contents */
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5, SizingMethod="auto expand")'; /*IE8 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5, SizingMethod='auto expand'); /*IE6, IE7*/
+    transform: translateY(-50%);    
+}
+
+
+
 	</style>
 
 
@@ -480,14 +496,19 @@ height:0px;
 					<div class = 'slider'>
 						
 						
-						<div class="slide2" style="float: left; width: 35%; color: white; text-align:center;font-family:Abel;">YANNA HOUSE<br> 
+						<div class="slide2">
+							
+							<div class="tx" style="color: white;
+					
+							font-family: Abel;">
+							YANNA HOUSE<br> 
 							Ubicación: MTY, MX <br>
 							Año: 2013 <br>
 							Tipo: Inversión <br>
 							Programa: Casa unifamiliar <br>
 							Estatus: Construido <br>
 							Área: 420m2 <br>
-							Equipo: Beto Frias <br> Andrés Martínez C.</div>
+							Equipo: Beto Frias <br> Andrés Martínez C.</div></div>
 						
 						<img src = './web/yanna/yannaLiving.jpg'/>
 						<img src = './web/yanna/yannaFacade.jpg' />
