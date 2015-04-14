@@ -120,6 +120,36 @@ transform: scale(.75,.75);
 #navigator header#topBar{border-bottom:3px solid #f3f3f3}
 
 
-#collection-5140bea2e4b0b851d721cc1f #container-content{padding:30px 30px 23px 30px;background:#fff;border:8px solid #000}#project .project-item .meta h1{margin-bottom:20px !important}#project .gallery{max-width:1200px;padding-top:50px;margin-top:0 !important}
+#collection-5140bea2e4b0b851d721cc1f #navigator {
+    background: #273341 url("http://static1.squarespace.com/static/5140bea2e4b0b851d721cc1a/t/54d2db5de4b0575f0e2ef4f1/1423104861891/bg2.jpg");
+    background-size: cover
+}
+
+#collection-5140bea2e4b0b851d721cc1f #container-content p {
+    font-size: 18px;
+    color: #a1a198
+}
+
+#collection-5140bea2e4b0b851d721cc1f #container-content p strong,
+#collection-5140bea2e4b0b851d721cc1f #container-content a {
+    color: #fff
+}
+
+#collection-5140bea2e4b0b851d721cc1f #container-content {
+    max-width: 750px;
+    margin: 0 auto
+}
+
+#collection-5140bea2e4b0b851d721cc1f #container-content h1, #collection-5140bea2e4b0b851d721cc1f #container-content h2,
+#collection-5140bea2e4b0b851d721cc1f #container-content h3 {
+    color: #df4b37
+}
+
+#collection-5140bea2e4b0b851d721cc1f #container-content h1 {
+    font-size: 56px;
+    padding-bottom: 20px
+}
+
+
 
 #navigator .siteTitle{margin:-5px 25px}[data-dynamic-href="/hawaiienergy/"]{background:#fff !important}[data-dynamic-href="/hawaiienergy/"] .meta h1{color:#0b7f98 !important}[data-dynamic-href="/hawaiienergy/"] .meta .body p,[data-dynamic-href="/pic/"] .ss-social-button{color:#333}[data-dynamic-href="/hawaiienergy/"] .meta a{color:#0b7f98 !important}[data-dynamic-href="/pic/"]{background:#2e576f !important}[data-dynamic-href="/pic/"] .meta h1{color:#fff !important}[data-dynamic-href="/pic/"] .meta .body p,[data-dynamic-href="/pic/"] .ss-social-button{color:#78a7c3}[data-dynamic-href="/pic/"] .meta a{color:#fff !important}[data-dynamic-href="/wwffhh/"]{background:#202020 !important}[data-dynamic-href="/wwffhh/"] .meta h1{color:#cfab55 !important}[data-dynamic-href="/wwffhh/"] .meta .body p,[data-dynamic-href="/wwffhh/"] .ss-social-button{color:#e9e9e9}[data-dynamic-href="/wwffhh/"] .meta a{color:#cfab55 !important}[data-dynamic-href="/health-care-plain-simple/"]{background:#2ca18c !important}[data-dynamic-href="/health-care-plain-simple/"] .meta h1{color:#f2b90a !important}[data-dynamic-href="/health-care-plain-simple/"] .meta .body p,[data-dynamic-href="/health-care-plain-simple/"] .ss-social-button{color:#fff}[data-dynamic-href="/health-care-plain-simple/"] .meta a{color:#19e5c0 !important}[data-dynamic-href="/qlt/"]{background:#3d3741 !important}[data-dynamic-href="/qlt/"] .meta h1{color:#f3b314 !important}[data-dynamic-href="/qlt/"] .meta .body p,[data-dynamic-href="/qlt/"] .ss-social-button{color:#e9e9e9}[data-dynamic-href="/qlt/"] .meta a{color:#f3b314 !important}[data-dynamic-href="/vintage-cave/"]{background:#242424 !important}[data-dynamic-href="/vintage-cave/"] .meta h1{color:#d18226 !important}[data-dynamic-href="/vintage-cave/"] .meta .body p,[data-dynamic-href="/vintage-cave/"] .ss-social-button{color:#e9e9e9}[data-dynamic-href="/vintage-cave/"] .meta a{color:#d18226 !important}[data-dynamic-href="/ulupono-initiative/"]{background:#757167 !important}[data-dynamic-href="/ulupono-initiative/"] .meta h1{color:#75c851 !important}[data-dynamic-href="/ulupono-initiative/"] .meta .body p,[data-dynamic-href="/ulupono-initiative/"] .ss-social-button{color:#fff}[data-dynamic-href="/ulupono-initiative/"] .meta a{color:#75c851 !important}[data-dynamic-href="/hawaiian-airlines/"]{background:#392b35 !important}[data-dynamic-href="/hawaiian-airlines/"] .meta h1{color:#f4846b !important}[data-dynamic-href="/hawaiian-airlines/"] .meta .body p,[data-dynamic-href="/hawaiian-airlines/"] .ss-social-button{color:#fff}[data-dynamic-href="/hawaiian-airlines/"] .meta a{color:#ffa18d !important}[data-dynamic-href="/island-air/"]{background:#fff !important}[data-dynamic-href="/tcb/"]{background:#f8be97}[data-dynamic-href="/tcb/"] .meta h1{color:#fff !important}[data-dynamic-href="/tcb/"] .meta a{color:#9a6a4a !important}
