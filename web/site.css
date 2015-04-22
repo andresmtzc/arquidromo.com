@@ -121,14 +121,15 @@ transform: scale(.75,.75);
 
 
 #collection-5140bea2e4b0b851d721cc1f #navigator {
-    background-color: #100c0b;
-    background-image: url("http://arquidromo.com/web/domobg.jpg”);
-    background-size: cover;
+    background:url("http://arquidromo.com/web/domobg.jpg");
+    background-size: 972px 971px;
+    background-repeat: no-repeat;
+    background-color:100c0b;
 }
 
 #collection-5140bea2e4b0b851d721cc1f #container-content p {
     font-size: 18px;
-    color: #cacac0
+    color: #a1a198
 }
 
 #collection-5140bea2e4b0b851d721cc1f #container-content p strong,
