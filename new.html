@@ -296,20 +296,24 @@ isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0
 <style>
 		
 		.bw{
-		  -webkit-filter: saturate(0) sepia(0) contrast(0.75);
-		  -filter:saturate(0) sepia(0) contrast(0.75);
+		  -webkit-filter: saturate(0) contrast(0.75);
+		  -filter:saturate(0) contrast(0.75);
 		      
           -webkit-transition: filter 2s ease-in-out;
-          transition: filter opacity 2s ease-in-out;
+          transition: filter 2s ease-in-out;
+          -webkit-transition: opacity 2s ease-in-out;
+          transition: opacity 2s ease-in-out;
 
 		  opacity:.5;
 		}
 		.bw:hover {
-		  -webkit-filter: saturate(1) sepia(0) contrast(1);
-		  -filter:saturate(1) sepia(0) contrast(1);
+		  -webkit-filter: saturate(1) contrast(1);
+		  -filter:saturate(1) contrast(1);
 
           -webkit-transition: filter .2s ease-in-out;
 		  transition: filter .2s ease-in-out;
+		  -webkit-transition: opacity .2s ease-in-out;
+		  transition: opacity .2s ease-in-out;
 
 		  opacity:1;
 		}
@@ -319,7 +323,7 @@ isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0
 
 
 
-<span class="thumb">
+<span class="thumb bw">
   <a href="./newInside.html">
   <img data-load="false" data-src="./web/obispadoThumbnail.jpg" data-image-dimensions="2500x2500" alt="Morgan Phillips Photography-0812.jpg"></a>
 </span>
