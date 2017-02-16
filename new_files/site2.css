@@ -10126,9 +10126,9 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 .collection-type-gallery.enable-thumbnail-hover.sqs-style-mode .thumb-list :first-child.thumb img {
 	opacity: 0.5;
 }
-.collection-type-gallery.enable-thumbnail-hover .thumb-list .thumb:hover img {
-	opacity: 0;
-}
+
+
+
 #categoryNav {
 	display: none; visibility: hidden;
 }
