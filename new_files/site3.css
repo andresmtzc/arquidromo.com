@@ -4747,6 +4747,10 @@ body:not(.event-thumbnails):not(.event-date-label) .eventlist-column-info {
 .sqs-block-zola .zola-block-wrapper.zola-block-setting-inset {
 	padding: 0px 20px;
 }
+
+
+
+
 .sqs-use--icon {
 	transition:fill 170ms ease-in-out; fill: transparent; -webkit-transition: fill 170ms ease-in-out; -moz-transition: fill 170ms ease-in-out; -o-transition: fill 170ms ease-in-out;
 }
@@ -5719,6 +5723,9 @@ body:not(.event-thumbnails):not(.event-date-label) .eventlist-column-info {
 .social-icons-color-standard.social-icons-style-solid .sqs-svg-icon--list:hover :not(:hover).youtube {
 	background-color: rgba(229, 45, 39, 0.4);
 }
+
+
+
 .sqs-block-markdown {
 	clear: none;
 }
