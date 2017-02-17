@@ -11869,7 +11869,7 @@ body.sqs-style-mode #canvasWrapper {
 	display: none;
 }
 #mobileMenuLink {
-	margin: 0px; padding: 0px 0px 15px; text-align: center; letter-spacing: 0px; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; display: block; background-color: rgb(255, 255, 255);
+	margin: 0px; padding: 0px 0px 15px; text-align: center; letter-spacing: 0px; font-family: 'Roboto',sans-serif; font-size: 14px; font-style: normal; font-weight: normal; display: block; background-color: rgb(255, 255, 255);
 }
 #mobileMenuLink a {
 	margin: 0px; color: rgb(156, 156, 156); font-size: 16px !important; display: block; cursor: pointer;
