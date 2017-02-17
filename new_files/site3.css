@@ -11975,7 +11975,7 @@ body.sqs-style-mode #canvasWrapper {
 	text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Varela Round"; font-size: 24px; font-style: normal; font-weight: 400;
 }
 .body-font {
-	line-height: 1.6em; letter-spacing: 0px; font-family: Helvetica,arial,sans-serif; font-size: 12px; font-style: normal; font-weight: normal;
+	line-height: 1.6em; letter-spacing: 0px; font-family: 'Roboto',sans-serif; font-size: 12px; font-style: normal; font-weight: normal;
 }
 .quote-font {
 	line-height: 1.4em; letter-spacing: 0px; font-family: Helvetica,arial,sans-serif; font-size: 16px; font-style: italic; font-weight: normal;
