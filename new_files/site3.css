@@ -1,3 +1,25 @@
+		.so{
+		  -webkit-filter: saturate(0) contrast(0.75);
+		  -filter:saturate(0) contrast(0.75);
+		      
+          -webkit-transition: .2s ease-in-out;
+          transition: .2s ease-in-out;
+
+
+		  opacity:.3;
+
+		}
+		.so:hover {
+		  -webkit-filter: saturate(1) contrast(1);
+		  -filter:saturate(1) contrast(1);
+
+          -webkit-transition: .2s ease-in-out;
+		  transition: .2s ease-in-out;
+
+
+		  opacity:1;
+		}
+
 @font-face {
 	font-family: squarespace-ui-font;
 	src: url(//static.squarespace.com/universal/fonts/squarespace-ui-font.eot?#iefix) format("embedded-opentype"), url(//static.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font) format("svg"), url(//static.squarespace.com/universal/fonts/squarespace-ui-font.woff) format("woff"), url(//static.squarespace.com/universal/fonts/squarespace-ui-font.ttf) format("truetype");
