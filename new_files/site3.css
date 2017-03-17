@@ -23,10 +23,12 @@
 		  -webkit-filter: saturate(0) contrast(0.75);
 		  -filter:saturate(0) contrast(0.75);
 
-          -webkit-transition: .2s ease-in-out;
-		  transition: .2s ease-in-out;
-		  
 		  opacity:.4;
+		}
+
+		.bww{
+          -webkit-transition: 2s ease-in-out;
+		  transition: 2s ease-in-out;
 		}
 
 		.bw:hover {
