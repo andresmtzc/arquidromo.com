@@ -24,7 +24,8 @@
 		  -webkit-filter: saturate(0) contrast(0.75);
 		  -filter:saturate(0) contrast(0.75);
 		      
-
+          -webkit-transition: 2s ease-in-out;
+          transition: 2s ease-in-out;
 
 
 		  opacity:.4;
@@ -34,7 +35,8 @@
 		  -webkit-filter: saturate(1) contrast(1);
 		  -filter:saturate(1) contrast(1);
 
-
+          -webkit-transition: .2s ease-in-out;
+		  transition: .2s ease-in-out;
 
 
 		  opacity:1;
