@@ -26,17 +26,12 @@
 		  opacity:.4;
 		}
 
-		.bww{
-          -webkit-transition: 2s ease-in-out;
-		  transition: 2s ease-in-out;
-		}
-
 		.bw:hover {
 		  -webkit-filter: saturate(1) contrast(1);
 		  -filter:saturate(1) contrast(1);
 
-          -webkit-transition: .2s ease-in-out;
-		  transition: .2s ease-in-out;
+          -webkit-transition: .1s ease-in-out;
+		  transition: .1s ease-in-out;
 
 		  opacity:1;
 		}
