@@ -16,7 +16,6 @@
           -webkit-transition: .2s ease-in-out;
 		  transition: .2s ease-in-out;
 
-
 		  opacity:1;
 		}
 
@@ -27,6 +26,8 @@
           -webkit-transition: 2s ease-in-out;
           transition: 2s ease-in-out;
 
+		  -webkit-transition-delay: 2s; /* Safari */
+    	  transition-delay: 2s;
 
 		  opacity:.4;
 		}
@@ -37,7 +38,6 @@
 
           -webkit-transition: .2s ease-in-out;
 		  transition: .2s ease-in-out;
-
 
 		  opacity:1;
 		}
