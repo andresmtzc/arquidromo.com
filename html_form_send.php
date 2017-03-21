@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
     // CHANGE THE TWO LINES BELOW
     $email_to = "info@arquidromo.com";
      
-    $email_subject = "website html form submissions";
+    $email_subject = "Arquidromo Website Contact Form";
      
      
     function died($error) {
@@ -36,7 +36,8 @@ if(isset($_POST['email'])) {
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The "Email Address" you entered does not appear to be valid.<br />';
   }
-    $string_exp = "/^[A-Za-z .'-]+$/";
+    $string_exp = "/^[A-Za-z .'-áéíóúñÁÉÍÓÚÑüÜ]+$/";
+
   if(!preg_match($string_exp,$first_name)) {
     $error_message .= 'The "First Name" you entered does not appear to be valid.<br />';
   }
@@ -59,13 +60,15 @@ if(isset($_POST['email'])) {
     $email_message .= "First Name: ".clean_string($first_name)."\n";
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Telephone: ".clean_string($telephone)."\n";
+    $email_message .= "Subject: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
      
      
 // create email headers
+
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
+'Content-Type: text/plain; charset=UTF-8'."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 
