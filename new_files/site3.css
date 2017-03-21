@@ -1063,7 +1063,7 @@ body > .login-wrapper.hidden {
 	text-align: left; position: relative;
 }
 .sqs-gallery-design-stacked-slide {
-	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+	left: 0px; top: 10px; width: 100%; height: 100%; position: absolute;
 }
 .sqs-gallery-design-stacked-slide img {
 	box-shadow: 0em 0em 0em #000;
