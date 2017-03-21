@@ -1,27 +1,9 @@
-		.cap{
-			position: absolute; 
-			bottom: 0px; 
-			left:0px;
-			right: 0px; 
-			padding: 10px; 
-			color: rgb(187,187,187); 
-			background: black; 
-			text-align: center;"
-			opacity:0;
-		}
-
-		.cap:hover{
-		  -webkit-transition: .1s ease-in-out;
-          transition: .1s ease-in-out;
-          opacity:0.7;
-		}
-
 		.so{
 		  -webkit-filter: saturate(0) contrast(0.75);
 		  -filter:saturate(0) contrast(0.75);
 		      
-          -webkit-transition: .2s ease-in-out;
-          transition: .2s ease-in-out;
+          -webkit-transition: .1s ease-in-out;
+          transition: .1s ease-in-out;
 
 
 		  opacity:.3;
@@ -31,8 +13,8 @@
 		  -webkit-filter: saturate(1) contrast(1);
 		  -filter:saturate(1) contrast(1);
 
-          -webkit-transition: .2s ease-in-out;
-		  transition: .2s ease-in-out;
+          -webkit-transition: .1s ease-in-out;
+		  transition: .1s ease-in-out;
 
 		  opacity:1;
 		}
@@ -643,10 +625,10 @@ body.native-currency-code-cad .sqs-money-native::after {
 	content: " CAD";
 }
 body.native-currency-code-gbp .sqs-money-native::before {
-	content: "£";
+	content: "Â£";
 }
 body.native-currency-code-eur .sqs-money-native::before {
-	content: "€";
+	content: "â‚¬";
 }
 body.native-currency-code-aud .sqs-money-native::before {
 	content: "$";
@@ -7723,25 +7705,25 @@ body:not(.image-block-card-dynamic-font-sizing) .sqs-block-image .design-layout-
 	display: inline-block;
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-date .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-event-time .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-cats .summary-item-has-cats .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-tags .summary-item-has-tags .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-author .summary-item-has-author .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-comments .summary-item-has-comments-enabled .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-secondary-metadata-location .summary-item-has-location .summary-metadata--primary .summary-metadata-item::after {
-	margin: 0px 0.3em; content: " ·";
+	margin: 0px 0.3em; content: " Â·";
 }
 .sqs-block-summary-v2 .summary-block-setting-text-size-extralarge .summary-title {
 	font-size: 54px;
@@ -8725,7 +8707,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block .OT_Fi
 	background: rgba(0, 0, 0, 0.15); top: 0px; width: 2.8em; height: 2.78em; right: 0px; color: rgb(255, 255, 255); position: absolute; cursor: pointer;
 }
 .sqs-announcement-bar-close::after {
-	padding: 0px; line-height: 2.7em; letter-spacing: normal; font-family: helvetica,arial,sans-serif; font-size: 1em; font-weight: 100; display: block; content: "×";
+	padding: 0px; line-height: 2.7em; letter-spacing: normal; font-family: helvetica,arial,sans-serif; font-size: 1em; font-weight: 100; display: block; content: "Ã—";
 }
 .sqs-announcement-bar-hidden {
 	height: 0px !important;
@@ -10141,7 +10123,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	color: rgb(17, 17, 17); text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Varela Round"; font-size: 12px; font-style: normal; font-weight: 400;
 }
 .collection-type-gallery #slideshowWrapper .image-description strong + span::before {
-	content: " – ";
+	content: " â€“ ";
 }
 .collection-type-gallery .thumb-list {
 	font-size: 0px;
@@ -11976,7 +11958,7 @@ body.sqs-style-mode #canvasWrapper {
 	content: " +";
 }
 #mobileNav :checked.folder-toggle-box ~ .folder-toggle-label::after {
-	content: " –";
+	content: " â€“";
 }
 .collection-type-blog.blog-sidebar-right #footerWrapper {
 	margin-right: 0px;
@@ -12009,7 +11991,7 @@ body.sqs-style-mode #canvasWrapper {
 	z-index: 0;
 }
 #categoryNav :checked#categoryNavToggle + .category-nav-toggle-label::after {
-	content: "–";
+	content: "â€“";
 }
 #categoryNav :checked#categoryNavToggle ~ .category-nav ul {
 	z-index: 2;
