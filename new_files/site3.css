@@ -9901,10 +9901,10 @@ nav ol {
 	height: 0px; overflow: hidden;
 }
 #canvas {
-	padding: 1px;
+	padding: 20px;
 }
 #header {
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 #page {
 	margin: 25px 0px 0px; width: 100%; position: relative; max-width: 1100px;
