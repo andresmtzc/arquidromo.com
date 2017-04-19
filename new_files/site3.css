@@ -9901,7 +9901,7 @@ nav ol {
 	height: 0px; overflow: hidden;
 }
 #canvas {
-	padding: 0px;
+	padding: 1px;
 }
 #header {
 	padding-bottom: 10px;
