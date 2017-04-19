@@ -11871,7 +11871,7 @@ body.sqs-style-mode #canvasWrapper {
 	line-height: 1.6em;
 }
 #canvas {
-	padding: 20px;
+	padding: 0px;
 }
 .thumb-list {
 	font-size: 0px;
