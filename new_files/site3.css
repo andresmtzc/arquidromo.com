@@ -9901,7 +9901,7 @@ nav ol {
 	height: 0px; overflow: hidden;
 }
 #canvas {
-	padding: 20px;
+	padding: 0px;
 }
 #header {
 	padding-bottom: 10px;
@@ -11871,7 +11871,7 @@ body.sqs-style-mode #canvasWrapper {
 	line-height: 1.6em;
 }
 #canvas {
-	padding: 0px;
+	padding: 20px;
 }
 .thumb-list {
 	font-size: 0px;
