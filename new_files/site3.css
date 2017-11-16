@@ -10139,6 +10139,9 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    -webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
 }
 .collection-type-gallery .thumb-list .thumb .thumb-title {
 	display: none;
