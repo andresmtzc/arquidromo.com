@@ -40,7 +40,7 @@
 		  transition: .1s ease-in-out;
 
 		  opacity:1;
-		  	overflow: hidden;
+
 		    -ms-transform: scale(1.1);
             -webkit-transform: scale(1.1);
             -moz-transform: scale(1.1);
@@ -10141,7 +10141,8 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	font-size: 0px;
 }
 .collection-type-gallery .thumb-list .thumb {
-	margin: 0px 20px 20px 0px; height: 270px; display: inline-block; cursor: pointer;
+	margin: 0px 20px 20px 0px; height: 350px; display: inline-block; cursor: pointer;
+	overflow: hidden;
 }
 .collection-type-gallery .thumb-list .thumb img {
 	height: 100%;
