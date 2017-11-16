@@ -10159,7 +10159,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	text-align: center;
 }
 .collection-type-gallery.enable-thumbnail-hover .thumb-list .thumb .thumb-title {
-	padding: 0px 10%; top: 50%; width: 80%; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.2em; letter-spacing: 1px; font-family: arial,sans-serif; font-size: 16px; font-style: normal; font-weight: normal; position: absolute; transform: translate(0px, -50%); -webkit-transform: translate(0, -50%);
+	padding: 0px 10%; top: 50%; width: 80%; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.2em; letter-spacing: 1px; font-family: 'Abel',sans-serif; font-size: 32px; font-style: normal; font-weight: normal; position: absolute; transform: translate(0px, -50%); -webkit-transform: translate(0, -50%);
 }
 .collection-type-gallery.enable-thumbnail-hover.sqs-style-mode .thumb-list :first-child.thumb {
 	background: rgb(0, 0, 0); position: relative; -webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d;
