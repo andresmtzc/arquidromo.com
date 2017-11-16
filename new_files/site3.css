@@ -24,12 +24,6 @@
 		  filter:saturate(0) contrast(0.75);
 
 		  opacity:1;
-
-		  	-ms-transform: scale(1);
-            -webkit-transform: scale(1);
-            -moz-transform: scale(1);
-            -o-transform: scale(1);
-            transform: scale(1);
 		}
 
 		.bw:hover {
@@ -40,12 +34,6 @@
 		  transition: .1s ease-in-out;
 
 		  opacity:1;
-
-		    -ms-transform: scale(1.1);
-            -webkit-transform: scale(1.1);
-            -moz-transform: scale(1.1);
-            -o-transform: scale(1.1);
-            transform: scale(1.1);
 		}
 
 @font-face {
@@ -10146,6 +10134,11 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 }
 .collection-type-gallery .thumb-list .thumb img {
 	height: 100%;
+}
+.collection-type-gallery .thumb-list .thumb:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .collection-type-gallery .thumb-list .thumb .thumb-title {
 	display: none;
