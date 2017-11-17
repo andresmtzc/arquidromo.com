@@ -10150,7 +10150,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	display: none;
 	text-shadow: 0px 0px 10px black;
 	transition: opacity .2s, font-size .2s;
-	opacity:1;
+	opacity:0.1;
 	padding: 0px 10%; 
 	top: 50%; 
 	width: 80%; 
@@ -10179,6 +10179,8 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 .collection-type-gallery.enable-thumbnail-hover .thumb-list .thumb .thumb-title {
     font-size:32px;
     color:red;
+    opacity:1;
+    transition: opacity .2s, font-size .2s;
 }
 .collection-type-gallery.enable-thumbnail-hover.sqs-style-mode .thumb-list :first-child.thumb {
 	background: rgb(0, 0, 0); position: relative; -webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d;
