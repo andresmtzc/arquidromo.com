@@ -9859,7 +9859,6 @@ dl {
 }
 .logo-image .logo img {
 	max-height: 100%; max-width: 100%;
-	image-rendering: pixelated;
 }
 :not(.site-alignment-center):not(.header-navigation-stacked).logo-image #topNav nav li a {
 	padding: 25px 0px;
