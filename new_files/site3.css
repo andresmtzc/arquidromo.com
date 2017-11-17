@@ -10149,10 +10149,10 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 .collection-type-gallery .thumb-list .thumb .thumb-title {
 	padding: 0px 10%; top: 50%; width: 80%; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.2em; letter-spacing: 1px; font-family: 'Abel',sans-serif; font-size: 32px; font-style: normal; font-weight: normal; position: absolute; transform: translate(0px, -50%); -webkit-transform: translate(0, -50%);
 	display: none;
-	font-size:100px;
+	font-size:64px;
 	opacity:0;
 	text-shadow: 0px 0px 10px black;
-	transition: opacity 2s, font-size 2s;
+	transition: opacity .5s, font-size .5s;
 }
 .collection-type-gallery .thumb-list .thumb .thumb-title:hover {
 	display: none;
