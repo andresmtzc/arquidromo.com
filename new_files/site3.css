@@ -36,6 +36,13 @@
 		  opacity:1;
 		}
 
+		.bw:hover #titi{
+    font-size:32px;
+    opacity:1;
+    transition: opacity .2s, font-size .2s;
+    -webkit-transition:opacity .2s, font-size .2s;
+		}
+
 		.tit{
 	text-shadow: 0px 0px 10px black;
 	opacity:0.1;
@@ -55,14 +62,10 @@
 	transform: translate(0px, -50%); 
 	-webkit-transform: translate(0, -50%);
 	transition: opacity .2s, font-size .2s;
+	-webkit-transition:opacity .2s, font-size .2s;
 		}
 
-		.tit:hover {
-    font-size:32px;
-    color:red;
-    opacity:1;
-    transition: opacity .2s, font-size .2s;
-		}
+
 
 @font-face {
 	font-family: squarespace-ui-font;
