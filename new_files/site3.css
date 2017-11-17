@@ -10145,6 +10145,8 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
     -webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    font-size:32px;
+    font-color:red;
 }
 .collection-type-gallery .thumb-list .thumb .thumb-title {	
 	display: none;
@@ -10160,7 +10162,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	line-height: 1.2em; 
 	letter-spacing: 1px; 
 	font-family: 'Abel',sans-serif; 
-	font-size: 64px; 
+	font-size: 48px; 
 	font-style: normal; 
 	font-weight: normal; 
 	position: absolute; 
