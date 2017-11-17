@@ -10178,7 +10178,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 }
 .collection-type-gallery.enable-thumbnail-hover .thumb-list .thumb .thumb-title {
     font-size:32px;
-    font-color:red;
+    color:red;
 }
 .collection-type-gallery.enable-thumbnail-hover.sqs-style-mode .thumb-list :first-child.thumb {
 	background: rgb(0, 0, 0); position: relative; -webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d;
