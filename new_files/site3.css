@@ -10148,6 +10148,12 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 }
 .collection-type-gallery .thumb-list .thumb .thumb-title {
 	display: none;
+	font-size:100px;
+	opacity:0.5;
+	text-shadow: 0px 0px 10px black;
+	-webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
 }
 .collection-type-gallery.index-fullwidth .thumb {
 	float: left; display: block;
@@ -10159,19 +10165,12 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	text-align: center;
 }
 .collection-type-gallery.enable-thumbnail-hover .thumb-list .thumb .thumb-title {
-	padding: 0px 10%; top: 50%; width: 80%; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.2em; letter-spacing: 1px; font-family: 'Abel',sans-serif; font-size: 100px; font-style: normal; font-weight: normal; position: absolute; transform: translate(0px, -50%); -webkit-transform: translate(0, -50%);
+	padding: 0px 10%; top: 50%; width: 80%; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.2em; letter-spacing: 1px; font-family: 'Abel',sans-serif; font-size: 32px; font-style: normal; font-weight: normal; position: absolute; transform: translate(0px, -50%); -webkit-transform: translate(0, -50%);
 	-webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
-    opacity:0.5;
-}
-.collection-type-gallery.enable-thumbnail-hover .thumb-list .thumb .thumb-title:hover {
-	font-size:32px;
-	opacity:1;
-	text-shadow: 0px 0px 10px black;
-	-webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
-    -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
-    transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    opacity:1;
+
 }
 .collection-type-gallery.enable-thumbnail-hover.sqs-style-mode .thumb-list :first-child.thumb {
 	background: rgb(0, 0, 0); position: relative; -webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d;
