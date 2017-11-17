@@ -10163,6 +10163,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 .collection-type-gallery .thumb-list .thumb {
 	margin: 0px 20px 20px 0px; height: 300px; display: inline-block; cursor: pointer;
 	overflow: hidden;
+	image-rendering: pixelated;
 }
 
 /*thumbnail box size grid size modificar^^ y margins*/
@@ -10172,6 +10173,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
 	-webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    image-rendering: pixelated;
 }
 .collection-type-gallery .thumb-list .thumb:hover img {
     -moz-transform: scale(1.1);
@@ -10180,6 +10182,7 @@ body:not(.full-view).collection-type-gallery .extra-wrapper {
     -webkit-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     -moz-transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
     transition: top 0.2s ease-out, left 0.2s ease-out, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    image-rendering: pixelated;
 }
 .collection-type-gallery .thumb-list .thumb .thumb-title {	
 	display: none;
