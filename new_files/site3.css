@@ -43,6 +43,11 @@
     -webkit-transition:opacity .15s, font-size .15s;
 		}
 
+	 	.textos{
+font-family: 'Abel',sans-serif;
+font-size: 16px; 
+		}
+
 		.tit{
 	text-shadow: 0px 0px 30px black;
 	opacity:0;
