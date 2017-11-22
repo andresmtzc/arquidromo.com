@@ -1790,6 +1790,9 @@ html.blogapp .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
 .sqs-col-12 .sqs-col-3 {
 	width: 25%;
 }
+.sqs-col-12 .sqs-col-2b {
+	width: 20%;
+}
 .sqs-col-12 .sqs-col-2 {
 	width: 16.66%;
 }
@@ -9792,13 +9795,13 @@ h1 {
 	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Abel"; font-size: 24px; font-style: normal; font-weight: 400;
 }
 h2 {
-	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Varela Round"; font-size: 24px; font-style: normal; font-weight: 400;
+	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Abel"; font-size: 24px; font-style: normal; font-weight: 400;
 }
 h3 {
-	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Varela Round"; font-size: 24px; font-style: normal; font-weight: 400;
+	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Abel"; font-size: 24px; font-style: normal; font-weight: 400;
 }
 h4 {
-	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Varela Round"; font-size: 24px; font-style: normal; font-weight: 400;
+	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Abel"; font-size: 24px; font-style: normal; font-weight: 400;
 }
 h5 {
 	margin: 1em 0px 0.5em; text-transform: none; line-height: 1.4em; letter-spacing: 0px; font-family: "Varela Round"; font-size: 24px; font-style: normal; font-weight: 400;
