@@ -73,6 +73,6 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);  
 
 //Redirect user to another page
-header('Location: http://arquidromo.com/new'); //Replace email-success.php with the page you want them to be redirected to!
+header('Location: http://arquidromo.com/thanks'); //Replace email-success.php with the page you want them to be redirected to!
 }
 ?>
