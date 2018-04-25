@@ -9,6 +9,19 @@
   text-align:center;
   font-family:'Abel';
 }
+
+.textostory{
+  position: absolute;
+  width:100%;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.25);
+  color: white;
+  padding: 12px 0px;
+  font-size: 18px;
+  text-align:center;
+  font-family:'Abel';
+}
+
 .cont{
   position: relative;
   display: inline-block;
