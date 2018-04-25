@@ -18,9 +18,13 @@
   color: white;
   padding: 10px 0px;
   padding-left: 10px;
+  padding-right:5px;
   font-size: 20px;
   text-align:left;
   font-family:'Abel';
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;  
 }
 
 .cont{
