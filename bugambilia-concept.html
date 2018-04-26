@@ -210,7 +210,14 @@ data-block-type="8" data-block-json='{"methodOption":"transient","existingGaller
 
 
 
-
+ <script> window.addEventListener('orientationchange', function () {
+    var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
+    document.body.style.display='none';
+    setTimeout(function () {
+      document.body.style.display = originalBodyStyle;
+    }, 10);
+  });
+</script>
 
 
 <DIV class="slide content-fit" data-type="image" 
@@ -218,7 +225,7 @@ data-click-through-url=""><IMG class="thumb-image"
 data-src="./web/bugambilia/step0B.jpg" 
 data-type="image" data-load="false" 
 data-image-dimensions="1244x700" data-image="./web/bugambilia/step0B.jpg">
-<div class="textostory"> .El proyecto consiste de una casa unifamiliar en un terreno conformado por 5 lotes en un fraccionamiento campestre en Saltillo, Coahuila</div>                                           
+<div class="textostory"> El proyecto consiste de una casa unifamiliar en un terreno conformado por 5 lotes en un fraccionamiento campestre en Saltillo, Coahuila</div>                                           
 <DIV class="color-overlay"></DIV></DIV>
 
 <DIV class="slide content-fit" data-type="image" 
@@ -385,15 +392,6 @@ Carlos Von Bertrab</P>
 
 <script>Squarespace.afterBodyLoad(Y);</script>
 
-
- <script> window.addEventListener('orientationchange', function () {
-    var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
-    document.body.style.display='none';
-    setTimeout(function () {
-      document.body.style.display = originalBodyStyle;
-    }, 10);
-  });
-</script>
 
 
 </div></div></div>
