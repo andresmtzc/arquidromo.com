@@ -10,20 +10,7 @@
   font-family:'Abel';
 }
 
-@media screen and (max-device-width : 320px)
-{
-  .textostory
-  {
-    font:20px;
-  }
-}
-@media screen and (max-device-width : 1204px)
-{
-  .textostory
-  {
-    font:10px;
-  }
-}
+
 
 .textostory{
   position: absolute;
@@ -31,12 +18,12 @@
   bottom: 0px;
   background-color: rgba(0,0,0,0.25);
   color: white;
-  padding: .75vh 0px;
-  padding-left: 1vh;
-  padding-right: .5vh;
+  padding: .75vmax 0px;
+  padding-left: 1vmax;
+  padding-right: .5vmax;
   font-size: 20px;
-  font-size:1.5vh;
-  line-height:1.5vh;
+  font-size:1.5vmax;
+  line-height:1.5vmax;
   text-align:left;
   font-family:'Abel';
   -webkit-box-sizing: border-box; 
