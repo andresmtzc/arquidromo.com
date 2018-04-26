@@ -18,12 +18,12 @@
   bottom: 0px;
   background-color: rgba(0,0,0,0.25);
   color: white;
-  padding: .75vmax 0px;
-  padding-left: 1vmax;
-  padding-right: .5vmax;
+  padding: .75vmin 0px;
+  padding-left: 1vmin;
+  padding-right: .5vmin;
   font-size: 20px;
-  font-size:1.5vmax;
-  line-height:1.5vmax;
+  font-size:1.5vmin;
+  line-height:1.5vmin;
   text-align:left;
   font-family:'Abel';
   -webkit-box-sizing: border-box; 
