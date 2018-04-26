@@ -211,11 +211,12 @@ data-block-type="8" data-block-json='{"methodOption":"transient","existingGaller
 
 
 <script> 
-  $(window).on('orientationchange', function() {
-    document.body.style.display='none';
-    document.body.offsetHeight; //cause a reflow
-    document.body.style.display='block'; //cause a repaint
-}); 
+$(window).bind("resize",function() {
+    //on resize reload only nav & replace
+    $.get("bugambilia-concept.html" +  ' textostory', function(data) {
+        $("textostory").replaceWith($(data).find("textostory"));
+    });
+});
 </script>
 
 
