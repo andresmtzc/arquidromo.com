@@ -10,6 +10,21 @@
   font-family:'Abel';
 }
 
+@media screen and (max-device-width : 320px)
+{
+  .textostory
+  {
+    font:20px;
+  }
+}
+@media screen and (max-device-width : 1204px)
+{
+  .textostory
+  {
+    font:10px;
+  }
+}
+
 .textostory{
   position: absolute;
   width:100%;
