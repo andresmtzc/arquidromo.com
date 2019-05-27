@@ -81,6 +81,31 @@
     -webkit-transition:opacity .15s, font-size .15s;
 		}
 
+
+				.bx{
+		  -webkit-filter: saturate(1) contrast(1);
+		  filter:saturate(1) contrast(1);
+
+		  opacity:1;
+		}
+
+		.bx:hover {
+		  -webkit-filter: saturate(1) contrast(1);
+		  filter:saturate(1) contrast(1);
+
+          -webkit-transition: .1s ease-in-out;
+		  transition: .1s ease-in-out;
+
+		  opacity:1;
+		}
+
+		.bx:hover #titi{
+    font-size:32px;
+    opacity:1;
+    transition: opacity .15s, font-size .15s;
+    -webkit-transition:opacity .15s, font-size .15s;
+		}
+
 	 	.textos{
 font-family: 'Abel',sans-serif;
 font-size: 16px; 
