@@ -9,10 +9,7 @@
 
 
 
-  <data name="en_pano10_title"><![CDATA[obispado_deptoUNO]]></data>
-
-
-  <data name="en_pano50_title"><![CDATA[test8]]></data>
+  <data name="en_pano10_title"><![CDATA[test9]]></data>
 
 
 
@@ -51,9 +48,6 @@
   <data name="en_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
   <data name="en_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
   <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
-
-
-
 
 
 
