@@ -4,8 +4,15 @@
     
   <!-- Spot Style - Default Point Spot Style -->
   <style name="IconDefaultPointSpotStyle"
-         url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png"
+         url="%FIRSTXML%/spots/hotspot_plan_sequence_user_defaultpoint0.png"
          visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="67"
+         frameheight="67"
+         stopspotsequence="false"
+         crop="0|0|67|67"
+         onloaded="startspotanimation(0.1);"
          onhover="onhoverIconDefaultPointSpotStyle"
          onout="onoutIconDefaultPointSpotStyle"
 
