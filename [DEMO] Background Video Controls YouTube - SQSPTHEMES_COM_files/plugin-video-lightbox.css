@@ -1,0 +1,48 @@
+body.c-video-lightbox-is-open {
+	overflow: hidden !important;
+}
+.c-video-lightbox {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; display: none; position: fixed; z-index: 2147483647; transition-duration: 350ms;
+}
+.c-video-lightbox__dialog {
+	padding: 15px; left: 0px; top: 0px; right: 0px; bottom: 0px; display: flex; position: absolute; opacity: 0; justify-content: center; align-content: center; -webkit-box-pack: center;
+}
+.c-video-lightbox__dialog::before {
+	background: rgba(0, 0, 0, 0.95); left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -1; content: "";
+}
+.c-video-lightbox__dialog.is-open {
+	animation:videoLightboxOverlayFadeIn 350ms forwards; -webkit-animation: videoLightboxOverlayFadeIn 350ms forwards;
+}
+.c-video-lightbox__dialog.is-close {
+	animation:videoLightboxOverlayFadeOut 350ms forwards; -webkit-animation: videoLightboxOverlayFadeOut 350ms forwards;
+}
+.c-video-lightbox__content {
+	width: 155vh; height: 100%; overflow: hidden; position: relative; max-width: 100%; box-sizing: border-box;
+}
+.c-video-lightbox__dialog.is-open .c-video-lightbox__content {
+	animation:videoLightboxOpen 350ms; -webkit-animation: videoLightboxOpen 350ms;
+}
+.c-video-lightbox__dialog.is-close .c-video-lightbox__content {
+	animation:videoLightboxClose 350ms forwards; -webkit-animation: videoLightboxClose 350ms forwards;
+}
+.c-video-lightbox__iframe-wrapper {
+	left: 0px; top: 50%; width: 100%; height: 0px; right: 0px; overflow: hidden; padding-bottom: 56.25%; position: absolute; transform: translateY(-50%); -webkit-transform: translateY(-50%);
+}
+.c-video-lightbox__content iframe {
+	border: 0px currentColor; border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; background-color: rgb(0, 0, 0);
+}
+.c-video-lightbox__close {
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20fill%3D%22lightgrey%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M18.984%206.422L13.406%2012l5.578%205.578-1.406%201.406L12%2013.406l-5.578%205.578-1.406-1.406L10.594%2012%205.016%206.422l1.406-1.406L12%2010.594l5.578-5.578z%22/%3E%3C/svg%3E") no-repeat center / contain; padding: 0px; border: 0px currentColor; transition:opacity 0.35s; border-image: none; top: 10px; width: 22px; height: 22px; right: 10px; display: block; position: absolute; z-index: 1; box-sizing: border-box; box-shadow: none;
+}
+@media all and (min-width:768px)
+{
+.c-video-lightbox__close {
+	top: 15px; right: 15px;
+}
+}
+.c-video-lightbox__close:hover {
+	opacity: 0.7;
+}
+.c-video-lightbox-is-open .c-video-lightbox .c-video-lightbox__close {
+	opacity: 1;
+}
