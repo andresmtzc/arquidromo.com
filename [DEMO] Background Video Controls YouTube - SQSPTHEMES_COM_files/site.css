@@ -1046,7 +1046,7 @@ body.no-scroll {
 	
 }
 .sqs-lightbox-overlay.light {
-	background: rgba(246, 246, 246, 0.98) !important; color: rgb(62, 62, 62);
+	background: rgba(246, 246, 246, 0) !important; color: rgb(62, 62, 62);
 }
 .sqs-lightbox-overlay.white.sqs-lightbox-overlay-style-orb {
 	
@@ -2678,7 +2678,7 @@ body.drag-selection-dragging * {
 	margin: 20px auto 0px; padding: 20px; transition:opacity 0.2s ease-out; color: rgb(255, 255, 255); position: absolute; z-index: 100000001; opacity: 0;
 }
 .yui3-lightbox2 .sqs-lightbox-meta.overlay-description-visible {
-	background: rgba(0, 0, 0, 0.7); opacity: 1 !important;
+	background: rgba(0, 0, 0, 0); opacity: 1 !important;
 }
 .yui3-lightbox2 .sqs-lightbox-meta p:first-child {
 	margin-top: 0px;
@@ -14069,7 +14069,7 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 	visibility: visible;
 }
 .sqs-product-quick-view-lightbox.sqs-modal-lightbox .sqs-modal-lightbox-content .lightbox-background {
-	background: rgba(240, 240, 240, 0.6) !important; opacity: 1;
+	background: rgba(240, 240, 240, 0) !important; opacity: 1;
 }
 .sqs-product-quick-view-lightbox.sqs-modal-lightbox .sqs-modal-lightbox-content .lightbox-inner .lightbox-content {
 	background: rgb(255, 255, 255) !important; padding: 0px; width: 85%; max-width: 900px;
