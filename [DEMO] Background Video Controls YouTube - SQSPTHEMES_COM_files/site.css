@@ -15272,7 +15272,7 @@ a:focus {
 	display: none;
 }
 :not(.tweak-site-width-option-constrained-width).tweak-overlay-parallax-enabled.has-parallax-images {
-	background-color: rgb(255, 255, 255) !important;
+	background-color: rgb(255, 0, 0) !important;
 }
 .tweak-overlay-parallax-enabled .Index-page--has-image {
 	background-color: transparent;
@@ -15284,7 +15284,7 @@ a:focus {
 	display: block;
 }
 .tweak-overlay-parallax-enabled .Parallax-item {
-	top: 0px; width: 100%; overflow: hidden; z-index: -1; background-color: rgb(42, 45, 43);
+	top: 0px; width: 100%; overflow: hidden; z-index: -1; background-color: rgb(255, 45, 43);
 }
 .tweak-overlay-parallax-enabled .Parallax-item [data-parallax-image-wrapper] {
 	margin: 0px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; transform: translateZ(0px); -webkit-transform: translatez(0); will-change: transform;
