@@ -20,7 +20,7 @@
 	margin-left: 0px;
 }
 .c-background-video-controls button:hover {
-	opacity: 1;
+	opacity: 0;
 }
 .c-background-video-controls button::before {
 	background-position: center; left: 0px; top: 0px; right: 0px; bottom: 0px; display: block; position: absolute; content: ""; opacity: 0; background-repeat: no-repeat; background-size: cover;
@@ -29,10 +29,10 @@
 	background-position: center; left: 0px; top: 0px; right: 0px; bottom: 0px; display: block; position: absolute; content: ""; opacity: 0; background-repeat: no-repeat; background-size: cover;
 }
 .c-background-video-controls button:not(.is-active)::before {
-	opacity: 1;
+	opacity: 0;
 }
 .c-background-video-controls button.is-active::after {
-	opacity: 1;
+	opacity: 0;
 }
 .c-background-video-controls button.c-background-video__play-button {
 	display: block;
