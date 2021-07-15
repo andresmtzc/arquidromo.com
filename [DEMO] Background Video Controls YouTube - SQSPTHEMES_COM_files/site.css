@@ -14801,7 +14801,7 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 	border-width: 0px;
 }
 .sqs-video-background iframe:not(.background-video) {
-	visibility: hidden; opacity: 0; transform: translateX(-1000%); -webkit-transform: translatex(-1000%); -moz-transform: translatex(-1000%);
+	visibility: hidden; opacity: 1; transform: translateX(-1000%); -webkit-transform: translatex(-1000%); -moz-transform: translatex(-1000%);
 }
 .sqs-video-background .background-video {
 	transition:opacity 0.2s ease-in; position: absolute; z-index: 0; min-height: 100%; min-width: 100%; opacity: 0; -webkit-transition: opacity .2s ease-in; -moz-transition: opacity .2s ease-in; -o-transition: opacity .2s ease-in;
@@ -14828,7 +14828,7 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 	transition:none; opacity: 1; -webkit-transition: none; -moz-transition: none; -o-transition: none;
 }
 .sqs-video-background .default-fallback-image.buffering {
-	transition:none; z-index: 2; opacity: 0; -webkit-transition: none; -moz-transition: none; -o-transition: none;
+	transition:none; z-index: 0; opacity: 0; -webkit-transition: none; -moz-transition: none; -o-transition: none;
 }
 .sqs-video-background .custom-fallback-image {
 	transition:opacity 0.2s ease-in; display: block; z-index: 0; min-height: 100%; min-width: 100%; opacity: 0; -webkit-transition: opacity .2s ease-in; -moz-transition: opacity .2s ease-in; -o-transition: opacity .2s ease-in;
