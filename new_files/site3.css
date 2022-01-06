@@ -10,6 +10,27 @@
   font-family:'Abel';
 }
 
+.blockads{
+  position: absolute;
+  width:50%;
+  height:100px;
+  bottom: 10px;
+  right:10px;
+  background-color: pink;
+  z-index: 1000;
+}
+
+@media all and (max-width: 770px) {
+    .blockads {
+  position: absolute;
+  width:50%;
+  height:100px;
+  bottom: 10px;
+  right:10px;
+  background-color: green;
+  z-index: 1000; }
+}
+
 
 
 .textostory{
