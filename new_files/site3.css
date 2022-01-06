@@ -24,8 +24,8 @@
     .blockads {
   position: absolute;
   width:50%;
-  height:90px;
-  bottom: 5px;
+  height:95px;
+  bottom: 3px;
   left:10px;
   background-color: blue;
   z-index: 1000; }
