@@ -1,0 +1,591 @@
+.title-phone {
+	display: none !important;
+}
+p a {
+	color: inherit !important; font-weight: inherit;
+}
+strong {
+	color: rgb(153, 153, 153) !important;
+}
+strong a {
+	color: inherit !important; font-size: inherit !important;
+}
+*:focus {
+	
+}
+img {
+	height: auto;
+}
+.contenido-suelto.portada .vimeo-suelto {
+	display: none;
+}
+.contenido-suelto.portada :first-of-type.vimeo-suelto {
+	display: block;
+}
+.titular-portada {
+	margin: 150px 0px 10px; color: black; letter-spacing: 1px; padding-left: 10px; font-size: 11px; font-weight: bold !important;
+}
+.titular-portada.ad {
+	margin: 75px 0px 10px;
+}
+.enlace-portada {
+	padding: 0px 10px; text-align: right; color: rgb(153, 153, 153); letter-spacing: 1px; font-size: 11px; font-weight: bold !important; margin-top: 10px; display: block;
+}
+.enlace-portada.ad {
+	margin: 75px 10px 10px 0px; padding: 0px;
+}
+div.ads {
+	display: flex; justify-content: space-between; align-items: flex-end;
+}
+@media screen and (max-width:1024px)
+{
+.enlace-portada {
+	text-align: center;
+}
+}
+.enlace-portada:hover {
+	color: rgb(153, 153, 153) !important;
+}
+.portada ul.links {
+	margin-top: 5px;
+}
+.portada .description p {
+	text-align: justify;
+}
+.portada .description > span {
+	color: rgb(153, 153, 153); text-transform: capitalize; line-height: 9px; letter-spacing: 2px; font-family: "Roboto"; font-size: 10px; font-style: normal; font-weight: 300; margin-bottom: 10px; word-spacing: 0px; display: block;
+}
+.portada .project {
+	margin-bottom: 10px;
+}
+@media all and (max-width:1024px)
+{
+.banner.portada {
+	display: block !important;
+}
+.banner.portada .home-slider {
+	display: none !important;
+}
+.main.portada {
+	max-width: 100% !important;
+}
+.titular-portada {
+	margin: 75px 0px 10px;
+}
+.contenido-suelto.portada {
+	padding-right: 10px; padding-left: 10px;
+}
+}
+#waypoint-proyectos {
+	opacity: 0;
+}
+#waypoint-noticias {
+	opacity: 0;
+}
+#waypoint-copy {
+	opacity: 0;
+}
+.animacion#waypoint-proyectos {
+	animation:waypoint 1.5s ease-in-out 0.3s forwards;
+}
+.animacion#waypoint-noticias {
+	animation:waypoint 1.5s ease-in-out 0.3s forwards;
+}
+.animacion#waypoint-copy {
+	animation:waypoint 1.5s ease-in-out 0.3s forwards;
+}
+#texto-portada a {
+	color: rgb(51, 51, 51);
+}
+#texto-portada-movil a {
+	color: rgb(51, 51, 51);
+}
+#texto-portada-movil {
+	padding-bottom: 40px; margin-top: 10px; display: none;
+}
+#texto-portada-extra-movil {
+	padding-bottom: 60px; display: none;
+}
+#texto-portada h1 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada h2 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada h3 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada h4 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra h1 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra h2 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra h3 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra h4 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-movil h1 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-movil h2 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-movil h3 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-movil h4 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra-movil h1 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra-movil h2 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra-movil h3 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada-extra-movil h4 {
+	color: rgb(153, 153, 153) !important; letter-spacing: 1px; font-size: 11px; font-weight: bold;
+}
+#texto-portada {
+	transition:max-height 3.5s ease-in-out, opacity 1s ease-in-out; overflow: hidden; max-height: 0px; opacity: 0;
+}
+#texto-portada-extra {
+	transition:max-height 3.5s ease-in-out, opacity 1s ease-in-out; overflow: hidden; max-height: 0px; opacity: 0;
+}
+#texto-portada-extra-movil {
+	transition:max-height 3.5s ease-in-out, opacity 1s ease-in-out; overflow: hidden; max-height: 0px; opacity: 0;
+}
+.desplegado#texto-portada {
+	max-height: 7000px;
+}
+.desplegado#texto-portada-extra {
+	max-height: 7000px;
+}
+.desplegado#texto-portada-extra-movil {
+	max-height: 7000px;
+}
+.visible#texto-portada {
+	opacity: 1;
+}
+.visible#texto-portada-extra {
+	opacity: 1;
+}
+.visible#texto-portada-extra-movil {
+	opacity: 1;
+}
+#texto-portada-extra {
+	margin-top: 40px;
+}
+#texto-portada p {
+	text-align: justify;
+}
+@media all and (min-width:1024px)
+{
+body.home {
+	min-height: 110vh;
+}
+}
+#texto-editable {
+	margin-top: 80px;
+}
+body #texto-editable ul li {
+	text-align: left; margin-bottom: 0px;
+}
+#texto-editable h1 {
+	color: inherit; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+#texto-editable h2 {
+	color: inherit; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+#texto-editable h3 {
+	color: inherit; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+#texto-editable h4 {
+	color: inherit; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+#texto-editable a {
+	color: inherit !important; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+#texto-editable a strong {
+	color: rgb(153, 153, 153) !important;
+}
+#texto-editable strong {
+	color: rgb(153, 153, 153) !important;
+}
+.main.proyectos > #texto-editable {
+	margin-bottom: 50px;
+}
+.proyectos#texto-editable {
+	transition:opacity 1s ease-in-out; left: 50%; top: 0px; width: 100%; margin-top: 20px; position: absolute; max-width: 66.6%; opacity: 0; transform: translateX(-50%);
+}
+.main.noticias > #texto-editable {
+	margin-bottom: 50px;
+}
+.noticias#texto-editable {
+	transition:opacity 1s ease-in-out; left: 50%; top: 0px; width: 100%; margin-top: 20px; position: absolute; max-width: 66.6%; opacity: 0; transform: translateX(-50%);
+}
+.main.equipo > #texto-editable {
+	margin-bottom: 50px;
+}
+.equipo#texto-editable {
+	transition:opacity 1s ease-in-out; left: 50%; top: 0px; width: 100%; margin-top: 20px; position: absolute; max-width: 66.6%; opacity: 0; transform: translateX(-50%);
+}
+.main.premios > #texto-editable {
+	margin-bottom: 50px;
+}
+.premios#texto-editable {
+	transition:opacity 1s ease-in-out; left: 50%; top: 0px; width: 100%; margin-top: 20px; position: absolute; max-width: 66.6%; opacity: 0; transform: translateX(-50%);
+}
+.main.exposiciones > #texto-editable {
+	margin-bottom: 50px;
+}
+.exposiciones#texto-editable {
+	transition:opacity 1s ease-in-out; left: 50%; top: 0px; width: 100%; margin-top: 20px; position: absolute; max-width: 66.6%; opacity: 0; transform: translateX(-50%);
+}
+.main.publicaciones > #texto-editable {
+	margin-bottom: 50px;
+}
+.publicaciones#texto-editable {
+	transition:opacity 1s ease-in-out; left: 50%; top: 0px; width: 100%; margin-top: 20px; position: absolute; max-width: 66.6%; opacity: 0; transform: translateX(-50%);
+}
+.visible#texto-editable {
+	opacity: 1;
+}
+#texto-editable p {
+	text-align: justify;
+}
+body.blog .description p strong {
+	color: rgb(153, 153, 153) !important;
+}
+body.blog .description a strong {
+	color: rgb(153, 153, 153) !important;
+}
+.page-template-estudio .three-column-text .main > ul {
+	margin-top: 80px;
+}
+.page-template-estudio .three-column-text .main > ul h1 {
+	color: rgb(153, 153, 153) !important;
+}
+.page-template-estudio .three-column-text .main > ul h2 {
+	color: rgb(153, 153, 153) !important;
+}
+.page-template-estudio .three-column-text .main > ul a {
+	color: rgb(153, 153, 153) !important;
+}
+.page-template-estudio .three-column-text .main > ul strong {
+	color: rgb(153, 153, 153) !important;
+}
+.heading-especial {
+	letter-spacing: 1px; font-size: 11px; font-weight: bold; margin-bottom: 15px;
+}
+.slider-content {
+	left: 1px; position: relative;
+}
+.slider-content.pinterest:hover .boton-pinterest-proyectos {
+	opacity: 1;
+}
+.boton-pinterest-proyectos {
+	transition:0.5s ease-in-out; left: 50%; bottom: 20px; position: absolute; opacity: 0; transform: translate(-50%, -50%);
+}
+.boton-pinterest-proyectos img {
+	height: auto; max-width: 30px;
+}
+.suelta-pinterest {
+	position: relative;
+}
+.suelta-pinterest:hover .boton-pinterest-proyectos-suelto {
+	opacity: 1;
+}
+.boton-pinterest-proyectos-suelto {
+	transition:0.5s ease-in-out; left: 5px; top: 10px; position: absolute; opacity: 0;
+}
+.boton-pinterest-proyectos-suelto img {
+	width: auto; max-height: 23px;
+}
+.footer-2 {
+	margin-top: 80px;
+}
+.footer-2 li {
+	color: rgb(153, 153, 153); letter-spacing: 1.75px; font-size: 10px; font-weight: 300; position: relative;
+}
+.footer-2 li a {
+	color: rgb(153, 153, 153); letter-spacing: 1.75px; font-size: 10px; font-weight: 300; position: relative;
+}
+.footer-2 ul li::after {
+	background: white !important;
+}
+.footer-3 {
+	margin-top: 10px;
+}
+.footer-3 li {
+	color: rgb(153, 153, 153); letter-spacing: 1.75px; font-size: 10px; font-weight: 300; position: relative;
+}
+.footer-3 li a {
+	color: rgb(153, 153, 153); letter-spacing: 1.75px; font-size: 10px; font-weight: 300; position: relative;
+}
+.footer-3 ul li::after {
+	background: white !important;
+}
+.owl-carousel {
+	position: relative !important; z-index: 999 !important;
+}
+body.home .main {
+	position: relative;
+}
+body.category h2.titulo-cat-tag {
+	margin: 10px 0px 20px; line-height: normal; font-size: 14px; font-weight: bold; display: block;
+}
+body.category div.aviso-cat-tag {
+	padding: 10px; display: none; background-color: rgb(238, 238, 238);
+}
+body.category div.aviso-cat-tag p {
+	padding: 0px;
+}
+body.category div.aviso-cat-tag p a:not(.cat-tag-url) {
+	font-weight: bold; text-decoration: none;
+}
+body.category h1.page-title {
+	color: rgb(153, 153, 153); padding-bottom: 10px; font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+body.category {
+	font-size: 10px !important;
+}
+body.category .comments-link {
+	display: none;
+}
+body.category h1 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.category h2 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.category h3 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.category h4 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.category-arquitectos-valencia.category .taxonomy-description h1 {
+	font-size: 16px; margin-bottom: 15px;
+}
+body.category-arquitectos-valencia.category .taxonomy-description h2 {
+	font-size: 16px; margin-bottom: 15px;
+}
+body.category-arquitectos-valencia.category .taxonomy-description h3 {
+	font-size: 16px; margin-bottom: 15px;
+}
+body.category-arquitectos-valencia.category .taxonomy-description h4 {
+	font-size: 16px; margin-bottom: 15px;
+}
+body.category article {
+	margin-bottom: 80px;
+}
+body.category .page-header {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body.category .cat-links {
+	color: rgb(204, 204, 204); font-size: 10px;
+}
+body.category .tags-links {
+	color: rgb(204, 204, 204); font-size: 10px;
+}
+body.category .entry-footer small {
+	color: rgb(204, 204, 204);
+}
+body.category .cat-links a {
+	color: rgb(204, 204, 204); line-height: 9px; letter-spacing: 0px; font-size: 9px; font-style: italic;
+}
+body.category .tags-links a {
+	color: rgb(204, 204, 204); line-height: 9px; letter-spacing: 0px; font-size: 9px; font-style: italic;
+}
+body.category h2.entry-title a {
+	line-height: normal; font-size: 14px; font-weight: bold; margin-top: 10px; display: block;
+}
+body.category .single-page img {
+	height: auto;
+}
+body.category a.more-link {
+	font-weight: bold; margin-top: 10px; display: block;
+}
+body.category .screen-reader-text {
+	display: none;
+}
+body.category .posted-on {
+	display: none;
+}
+body.category a.post-edit-link {
+	display: none;
+}
+body.category .entry-footer {
+	margin-bottom: 40px;
+}
+body.category .taxonomy-description {
+	margin-top: 20px;
+}
+body.tag h2.titulo-cat-tag {
+	margin: 10px 0px 20px; line-height: normal; font-size: 14px; font-weight: bold; display: block;
+}
+body.tag h1.page-title {
+	color: rgb(153, 153, 153); padding-bottom: 10px; font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+body.tag {
+	font-size: 10px !important;
+}
+body.tag .comments-link {
+	display: none;
+}
+body.tag h1 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.tag h2 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.tag h3 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.tag h4 {
+	color: rgb(51, 51, 51) !important; line-height: 15px; letter-spacing: 1px; font-size: 11px; font-weight: 300;
+}
+body.tag .page-header {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body.tag article {
+	margin-bottom: 80px;
+}
+body.tag .cat-links {
+	color: rgb(204, 204, 204); font-size: 10px;
+}
+body.tag .tags-links {
+	color: rgb(204, 204, 204); font-size: 10px;
+}
+body.tag .entry-footer small {
+	color: rgb(204, 204, 204);
+}
+body.tag .cat-links a {
+	color: rgb(204, 204, 204); line-height: 8px; letter-spacing: 0px; font-size: 9px; font-style: italic;
+}
+body.tag .tags-links a {
+	color: rgb(204, 204, 204); line-height: 8px; letter-spacing: 0px; font-size: 9px; font-style: italic;
+}
+body.tag h2.entry-title a {
+	line-height: normal; font-size: 14px; font-weight: bold; margin-top: 10px; display: block;
+}
+body.tag .single-page img {
+	height: auto;
+}
+body.tag a.more-link {
+	font-weight: bold; margin-top: 10px; display: block;
+}
+body.tag .screen-reader-text {
+	display: none;
+}
+body.tag .posted-on {
+	display: none;
+}
+body.tag a.post-edit-link {
+	display: none;
+}
+body.tag .entry-footer {
+	margin-bottom: 40px;
+}
+body.tag .taxonomy-description {
+	margin-top: 20px;
+}
+.contact-sction .mail {
+	padding-bottom: 30px;
+}
+.wpcf7-form {
+	padding: 0px 20px; margin-bottom: 50px;
+}
+div.wpcf7-mail-sent-ok {
+	border: 2px solid rgb(51, 51, 51); border-image: none;
+}
+input[type='text'] {
+	padding: 0px 15px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; height: 37px; color: black; max-width: 350px; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+input[type='search'] {
+	padding: 0px 15px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; height: 37px; color: black; max-width: 350px; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+input[type='tel'] {
+	padding: 0px 15px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; height: 37px; color: black; max-width: 350px; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+input[type='email'] {
+	padding: 0px 15px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; height: 37px; color: black; max-width: 350px; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.wpcf7-form textarea {
+	padding: 10px 15px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 100%; height: 100px; color: black; max-width: 350px; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+input[type='submit'] {
+	padding: 10px 20px; border: 0px currentColor; transition:0.5s ease-in-out; border-image: none; width: 100%; color: black; font-size: 12px; font-weight: normal; vertical-align: top; cursor: pointer; max-width: 350px; background-color: rgb(204, 204, 204);
+}
+.wpcf7-response-output {
+	border: currentColor !important; border-image: none !important; color: rgb(153, 153, 153) !important; font-size: 12px !important; margin-top: 0px !important;
+}
+.wpcf7-not-valid-tip {
+	color: rgb(153, 153, 153) !important;
+}
+.ajax-loader {
+	display: none !important;
+}
+.ad-contacto {
+	
+}
+@media screen and (max-width:768px)
+{
+.ad-contacto div {
+	flex-basis: 100%;
+}
+}
+.footer-main h6 {
+	margin-bottom: 10px;
+}
+iframe#mailjet {
+	min-height: 300px; max-width: 400px;
+}
+.noticia-footer .posted-on {
+	display: none !important;
+}
+.noticia-footer .byline {
+	display: none !important;
+}
+.noticia-footer .screen-reader-text {
+	display: none !important;
+}
+.noticia-footer {
+	color: rgb(204, 204, 204); font-size: 10px;
+}
+.noticia-footer a {
+	color: rgb(204, 204, 204); line-height: 9px; letter-spacing: 0px; font-size: 9px; font-style: italic;
+}
+.tax-title {
+	color: black; text-transform: capitalize; line-height: normal; letter-spacing: 1px; font-size: 14px; font-weight: bold !important;
+}
+.main.proyectos .page-header {
+	padding: 0px 10px;
+}
+body.tax-tipo .page-header {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+body.tax-tipo .tax-title {
+	display: none;
+}
+.footer-main.ad {
+	padding: 20px 0px 45px;
+}
+#wechat-widget {
+	width: 200px; display: none; position: absolute; z-index: 1000; box-shadow: 2px 0px 15px -6px rgba(0,0,0,0.5);
+}
+#wechat-widget img {
+	width: 100%; height: auto;
+}
+.footer-main.mobile ul {
+	line-height: 3;
+}

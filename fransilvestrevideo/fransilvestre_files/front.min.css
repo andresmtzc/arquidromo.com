@@ -1,0 +1,132 @@
+#cookie-notice {
+	left: 0px; height: auto; text-align: center; line-height: 20px; letter-spacing: 0px; font-family: -apple-system,BlinkMacSystemFont,Arial,Roboto,"Helvetica Neue",sans-serif; font-size: 13px; font-weight: 400; position: fixed; z-index: 100000; min-width: 100%;
+}
+#cookie-notice {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+#cookie-notice * {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.cn-animated#cookie-notice {
+	animation-duration: 0.5s !important; animation-fill-mode: both; -webkit-animation-duration: 0.5s; -webkit-animation-fill-mode: both;
+}
+.cn-animated.cn-effect-none#cookie-notice {
+	animation-duration: 0.001s !important; -webkit-animation-duration: 0.001s;
+}
+#cookie-notice .cookie-notice-container {
+	display: block;
+}
+.cookie-notice-hidden#cookie-notice .cookie-notice-container {
+	display: none;
+}
+#cookie-notice .cookie-revoke-container {
+	display: block;
+}
+.cookie-revoke-hidden#cookie-notice .cookie-revoke-container {
+	display: none;
+}
+.cn-position-top {
+	top: 0px;
+}
+.cn-position-bottom {
+	bottom: 0px;
+}
+.cookie-notice-container {
+	padding: 15px 30px; width: 100%; text-align: center; z-index: 2;
+}
+.cookie-revoke-container {
+	padding: 15px 30px; width: 100%; z-index: 1;
+}
+.cn-close-icon {
+	padding: 10px; top: 50%; width: 15px; height: 15px; right: 15px; margin-top: -10px; position: absolute; cursor: pointer; opacity: 0.5;
+}
+.cn-close-icon:hover {
+	opacity: 1;
+}
+.cn-close-icon::before {
+	top: 3px; width: 2px; height: 15px; position: absolute; content: " "; background-color: rgba(128, 128, 128, 1);
+}
+.cn-close-icon::after {
+	top: 3px; width: 2px; height: 15px; position: absolute; content: " "; background-color: rgba(128, 128, 128, 1);
+}
+.cn-close-icon::before {
+	transform: rotate(45deg);
+}
+.cn-close-icon::after {
+	transform: rotate(-45deg);
+}
+#cookie-notice .cn-revoke-cookie {
+	margin: 0px;
+}
+#cookie-notice .cn-button {
+	margin: 0px 0px 0px 10px; display: inline-block;
+}
+#cookie-notice :not(.cn-button-custom).cn-button {
+	margin: 0px 0px 0px 10px; padding: 8.5px 10px; border-radius: 3px; border: currentColor; border-image: none; text-align: center; color: inherit; text-transform: none; line-height: 1; letter-spacing: 0.25px; font-family: -apple-system,BlinkMacSystemFont,Arial,Roboto,"Helvetica Neue",sans-serif; font-size: 13px; font-weight: 400; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-shadow: none; text-shadow: none; touch-action: manipulation; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.cn-text-container {
+	margin: 0px 0px 6px;
+}
+.cn-text-container {
+	display: inline-block;
+}
+.cn-buttons-container {
+	display: inline-block;
+}
+.cookie-notice-visible.cn-effect-none#cookie-notice {
+	animation-name: fadeIn; -webkit-animation-name: fadeIn;
+}
+.cookie-revoke-visible.cn-effect-none#cookie-notice {
+	animation-name: fadeIn; -webkit-animation-name: fadeIn;
+}
+.cn-effect-none#cookie-notice {
+	animation-name: fadeOut; -webkit-animation-name: fadeOut;
+}
+.cookie-notice-visible.cn-effect-fade#cookie-notice {
+	animation-name: fadeIn; -webkit-animation-name: fadeIn;
+}
+.cookie-revoke-visible.cn-effect-fade#cookie-notice {
+	animation-name: fadeIn; -webkit-animation-name: fadeIn;
+}
+.cn-effect-fade#cookie-notice {
+	animation-name: fadeOut; -webkit-animation-name: fadeOut;
+}
+.cookie-notice-visible.cn-effect-slide#cookie-notice {
+	animation-name: slideInUp; -webkit-animation-name: slideInUp;
+}
+.cookie-revoke-visible.cn-effect-slide#cookie-notice {
+	animation-name: slideInUp; -webkit-animation-name: slideInUp;
+}
+.cn-effect-slide#cookie-notice {
+	animation-name: slideOutDown; -webkit-animation-name: slideOutDown;
+}
+.cookie-notice-visible.cn-position-top.cn-effect-slide#cookie-notice {
+	animation-name: slideInDown; -webkit-animation-name: slideInDown;
+}
+.cookie-revoke-visible.cn-position-top.cn-effect-slide#cookie-notice {
+	animation-name: slideInDown; -webkit-animation-name: slideInDown;
+}
+.cn-position-top.cn-effect-slide#cookie-notice {
+	animation-name: slideOutUp; -webkit-animation-name: slideOutUp;
+}
+@media all and (max-width:900px)
+{
+.cookie-notice-container #cn-notice-text {
+	display: block;
+}
+.cookie-notice-container #cn-notice-buttons {
+	display: block;
+}
+#cookie-notice .cn-button {
+	margin: 0px 5px 5px;
+}
+}
+@media all and (max-width:480px)
+{
+.cookie-notice-container {
+	padding: 15px 25px;
+}
+.cookie-revoke-container {
+	padding: 15px 25px;
+}
+}
