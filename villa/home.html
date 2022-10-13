@@ -11849,7 +11849,7 @@ data-block-type="2">
 <div class="form-wrapper"> 
   <div class="form-inner-wrapper">
 
-<form name="htmlform" action="https://formcarry.com/s/ZnHkqxEx7sj" method="POST" accept-charset="UTF-8">
+<form name="arquidromoform" id="arquidromoform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScQEZUMGMIQ7ll2_wvL6DSvr9bLNvLiRCVdNHFGE7he8To-8w/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 
       
 
@@ -11860,12 +11860,12 @@ data-block-type="2">
               <legend>Name</legend>
               
                 <div class="field first-name" style="font-family:'Abel'">
-                  <label class="caption"><input class="field-element field-control" name="arquidromo_" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First">
+                  <label class="caption"><input class="field-element field-control" name="entry.2007259235" id="entry.2007259235" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First">
                   Nombre  |  Name</label>
                 </div>
 
                 <div class="field last-name" style="font-family:'Abel'">
-                  <label class="caption"><input class="field-element field-control" name="last_name" x-autocompletetype="surname" type="text" spellcheck="false" maxlength="30" data-title="Last">
+                  <label class="caption"><input class="field-element field-control" name="entry.1356585737" id="entry.1356585737" x-autocompletetype="surname" type="text" spellcheck="false" maxlength="30" data-title="Last">
                   Apellido  |  Lastname</label>
                 </div>
               </fieldset>
@@ -11874,14 +11874,14 @@ data-block-type="2">
               <div id="email2" class="form-item field email required" style="font-family:'Abel'">
                 <label class="title" for="email2-field">Celular  |  Cellphone<span class="required">*</span></label>
                 
-                <input class="field-element" name="celu_" x-autocompletetype="email" type="email" spellcheck="false" id="email2-field">
+                <input class="field-element" name="entry.1476112208" id="entry.1476112208" x-autocompletetype="tel" type="tel" spellcheck="false">
               </div>
 
             
               <div id="textarea4" class="form-item field textarea required" style="font-family:'Abel'">
                 <label class="title" for="textarea4-field">Mensaje  |  Message<span class="required">*</span></label>
                 
-                <textarea class="field-element " name="mensaje_"></textarea>
+                <textarea class="field-element " name="entry.97210687" id="entry.97210687"></textarea>
               </div>
             
 
@@ -11899,6 +11899,10 @@ data-block-type="2">
 
       <div class="hidden form-submission-text">Thank you!</div>
       <div class="hidden form-submission-html" data-submission-html=""></div>
+
+      <input type="submit" value="Submit">
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
     </form>
 
   </div>
@@ -11908,7 +11912,14 @@ data-block-type="2">
 
 
 
-
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#arquidromoform').on('submit', function(e) {
+  $('#arquidromoform *').fadeOut(2000);
+  $('#arquidromoform').prepend('Your submission has been processed...');
+  });
+</script>
 
 
 
