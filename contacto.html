@@ -303,17 +303,20 @@ isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0
       
 <!--
       <div class="g-recaptcha" data-sitekey="6LfG_-0aAAAAAOYbxLC4nwqYo7Q_PP4gDaxX1yit"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfG_-0aAAAAAOYbxLC4nwqYo7Q_PP4gDaxX1yit&amp;co=aHR0cDovL2FycXVpZHJvbW8uY29tOjgw&amp;hl=en&amp;v=vP4jQKq0YJFzU6e21-BGy3GP&amp;size=normal&amp;cb=6wr6nkuwo0tf" width="304" height="78" role="presentation" name="a-qm5cpen0r3z9" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><br>
+
+      -->
+
       <div class="form-button-wrapper form-button-wrapper--align-left">
         <input style="font-family:'Abel'" class="button sqs-system-button sqs-editable-button" type="submit" value="Submit">
       </div>
--->
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
 
       <div class="hidden form-submission-text">Thank you!</div>
       <div class="hidden form-submission-html" data-submission-html=""></div>
 
-      <input type="submit" value="Submit">
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
+     
+    
     </form>
 
   </div>
@@ -326,7 +329,7 @@ isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0
 <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
-$('#arquidromoform').on('submit', function(e) {
+  $('#arquidromoform').on('submit', function(e) {
   $('#arquidromoform *').fadeOut(2000);
   $('#arquidromoform').prepend('Your submission has been processed...');
   });
