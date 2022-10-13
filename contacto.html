@@ -312,32 +312,12 @@ isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
-
 <script type="text/javascript">
-$("#arquidromoform").submit(function(e) {
-  e.preventDefault();
-  var entry.2007259235 = $("#entry.2007259235").val();
-  var entry.1476112208 = $("entry.1476112208").val();
-  var entry.97210687 = $("entry.97210687").val();
-  
-  if(entry.2007259235 == "" || entry.1476112208 == ""  || entry.97210687 == "" ) {
-    $("#error_message").show().html("All Fields are Required");
-  } else {
-    $("#error_message").html("").hide();
-    $.ajax({
-      
-      success: function(data){
-        
-$('#arquidromoform *').fadeOut(2000);
+  $('#arquidromoform').on('submit', function(e) {
+  $('#arquidromoform *').fadeOut(2000);
   $('#arquidromoform').prepend('Gracias, ya recibimos tu mensaje. En breve nos comunicaremos contigo.');
-
-
-      }
-    });
-  }
-})
-</script> 
-
+  });
+</script>
 
 
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
