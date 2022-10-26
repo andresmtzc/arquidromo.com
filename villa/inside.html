@@ -11488,169 +11488,129 @@ class="sqs-cart-quantity">0</SPAN>               </DIV></SPAN>
 
 
 <main class="container" id="page" 
-role="main"><ARTICLE class="sections" id="sections" data-page-sections="5ea95c19b3384b594c4f23f1"><SECTION 
-class="page-section&#10;    &#10;      gallery-section&#10;      full-bleed-section&#10;    &#10;    background-width--full-bleed&#10;    &#10;      section-height--medium&#10;    &#10;    &#10;      content-width--wide&#10;    &#10;    horizontal-alignment--center&#10;    vertical-alignment--middle&#10;    &#10;      &#10;    &#10;    &#10;    black" 
-data-test="page-section" data-current-styles='{&#10;"backgroundWidth": "background-width--full-bleed",&#10;"imageOverlayOpacity": 0.15,&#10;"sectionHeight": "section-height--medium",&#10;"horizontalAlignment": "horizontal-alignment--center",&#10;"verticalAlignment": "vertical-alignment--middle",&#10;"contentWidth": "content-width--wide",&#10;"sectionTheme": "black",&#10;"sectionAnimation": "none",&#10;"backgroundMode": "image",&#10;"backgroundImage": null&#10;}' 
-data-animation="none" data-section-id="5ea95c19b3384b594c4f23f4" 
-data-controller="SectionWrapperController" data-json-schema-section="" 
-data-current-context='{&#10;"video": {&#10;"playbackSpeed": 0.5,&#10;"filter": 1,&#10;"filterStrength": 0,&#10;"zoom": 0&#10;},&#10;"backgroundImageId": null,&#10;"backgroundMediaEffect": null,&#10;"typeName": "page"&#10;}' 
+role="main"><ARTICLE class="sections" id="sections" data-page-sections="5ea95c19b3384b594c4f23f1">
+
+
+
+
+
+
+
+
+
+ <SECTION 
+class="page-section&#10;    &#10;      layout-engine-section&#10;    &#10;    background-width--full-bleed&#10;    &#10;      &#10;      &#10;    &#10;    &#10;    &#10;    horizontal-alignment--left&#10;    vertical-alignment--bottom&#10;    &#10;       has-background&#10;    &#10;    &#10;    black" 
+style="min-height: 100vh;" data-test="page-section" data-current-styles='{&#10;"backgroundImage": {&#10;"id": "5ea961b0442ee60269cee570",&#10;"recordType": 2,&#10;"addedOn": 1586516903274,&#10;"updatedOn": 1586862552513,&#10;"starred": false,&#10;"passthrough": false,&#10;"workflowState": 1,&#10;"publishOn": 1586516903274,&#10;"authorId": "5dcafa789098f87b9a0c3b32",&#10;"systemDataId": "1586516905911-KPFPU0EZ8O8P97V5CKN2",&#10;"systemDataVariants": "1920x1280,100w,300w,500w,750w,1000w,1500w",&#10;"systemDataSourceType": "JPG",&#10;"filename": "villa-rondinelli-home-firenze-ambienti-hero-image.jpg",&#10;"mediaFocalPoint": {&#10;"x": 0.5,&#10;"y": 0.5,&#10;"source": 3&#10;},&#10;"colorData": {&#10;"topLeftAverage": "5e4f37",&#10;"topRightAverage": "524433",&#10;"bottomLeftAverage": "3e3324",&#10;"bottomRightAverage": "665440",&#10;"centerAverage": "363024",&#10;"suggestedBgColor": "65563f"&#10;},&#10;"urlId": "p4yvr4zjqtsmumuqg123m3flq1oub2-gmj7c",&#10;"title": "",&#10;"body": null,&#10;"likeCount": 0,&#10;"commentCount": 0,&#10;"publicCommentCount": 0,&#10;"commentState": 2,&#10;"unsaved": false,&#10;"author": {&#10;"id": "5dcafa789098f87b9a0c3b32",&#10;"displayName": "Margherita Baldi",&#10;"firstName": "Margherita",&#10;"lastName": "Baldi",&#10;"bio": ""&#10;},&#10;"assetUrl": "https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg",&#10;"contentType": "image/jpeg",&#10;"items": [ ],&#10;"pushedServices": { },&#10;"pendingPushedServices": { },&#10;"recordTypeLabel": "image",&#10;"originalSize": "1920x1280"&#10;},&#10;"imageOverlayOpacity": 0.0,&#10;"backgroundWidth": "background-width--full-bleed",&#10;"sectionHeight": "section-height--custom",&#10;"customSectionHeight": 100,&#10;"horizontalAlignment": "horizontal-alignment--left",&#10;"verticalAlignment": "vertical-alignment--bottom",&#10;"contentWidth": "content-width--custom",&#10;"customContentWidth": 100,&#10;"sectionTheme": "black",&#10;"sectionAnimation": "none",&#10;"backgroundMode": "image"&#10;}' data-animation="none" 
+data-section-id="5ea961b0442ee60269cee577" data-controller="SectionWrapperController" 
+data-current-context='{&#10;"video": {&#10;"playbackSpeed": 0.5,&#10;"filter": 1,&#10;"filterStrength": 0,&#10;"zoom": 0,&#10;"videoSourceProvider": "none"&#10;},&#10;"backgroundImageId": null,&#10;"backgroundMediaEffect": null,&#10;"typeName": "page"&#10;}' 
 data-section-theme="black">
-<DIV class="section-background"></DIV>
+<DIV class="section-background">
+<SCRIPT>
+  "use strict";
+
+  var positionImage = function positionImage(imageEl) {
+    var imageDimensions = imageEl.dataset.imageDimensions.split('x');
+    var originalWidth = imageDimensions[0];
+    var originalHeight = imageDimensions[1];
+    var focalPoint = imageEl.dataset.imageFocalPoint.split(',');
+    var focalPointX = focalPoint[0];
+    var focalPointY = focalPoint[1];
+    var parentNode = imageEl.parentNode;
+
+    var scale = function () {
+      var imageRatio = originalWidth / originalHeight;
+      var parentClientSize = {
+        height: parentNode.clientHeight,
+        width: parentNode.clientWidth
+      };
+      var parentRatio = parentClientSize.width / parentClientSize.height;
+
+      if (imageRatio > parentRatio) {
+        return parentClientSize.height / originalHeight;
+      }
+
+      return parentClientSize.width / originalWidth;
+    }();
+
+    var getRelativeOffset = function getRelativeOffset() {
+      var targetWidth = Math.ceil(originalWidth * scale);
+      var targetHeight = Math.ceil(originalHeight * scale);
+      var parentDimensionWidth = parentNode.offsetWidth;
+      var parentDimensionHeight = parentNode.offsetHeight;
+      var overflowWidth = targetWidth - parentDimensionWidth;
+      var overflowHeight = targetHeight - parentDimensionHeight;
+      var valueX;
+
+      if (overflowWidth === 0) {
+        valueX = focalPointX;
+      } else {
+        valueX = Math.max(Math.min(targetWidth * focalPointX - parentDimensionWidth * 0.5, overflowWidth), 0) / overflowWidth;
+      }
+
+      var valueY;
+
+      if (overflowHeight === 0) {
+        valueY = focalPointY;
+      } else {
+        valueY = Math.max(Math.min(targetHeight * focalPointY - parentDimensionHeight * 0.5, overflowHeight), 0) / overflowHeight;
+      }
+
+      return {
+        valueX: valueX,
+        valueY: valueY
+      };
+    };
+
+    var relativeOffset = getRelativeOffset();
+    var valueX = relativeOffset.valueX;
+    var valueY = relativeOffset.valueY;
+    imageEl.style.objectPosition = "".concat(valueX * 100, "% ").concat(valueY * 100, "%");
+  };
+</SCRIPT>
+       <IMG onload="positionImage(this); this.classList.add('loaded');" alt="" 
+data-src="https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg" 
+srcset="https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=100w 100w,https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=300w 300w,https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=500w 500w,https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=750w 750w,https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=1000w 1000w,https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=1500w 1500w,https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg?format=original 2500w" 
+loading="lazy" sizes="(max-width: 799px) 200vw, 100vw" data-load="false" 
+data-image-focal-point="0.5,0.5" data-image-dimensions="1920x1280" data-image="https://images.squarespace-cdn.com/content/v1/5e8b0f6d1e8c3436e9ed820f/1586516905911-KPFPU0EZ8O8P97V5CKN2/villa-rondinelli-home-firenze-ambienti-hero-image.jpg"> 
+                      
+<DIV class="section-background-overlay" style="opacity: 0;"></DIV></DIV>
 <DIV class="content-wrapper">
-<DIV class="content">
-<DIV class="gallery gallery-section-wrapper" style="min-height: 100px;">
-<DIV class="gallery" style="min-height: 100px;"><!-- Gallery Fullscreen Slideshow --> 
-<DIV class="gallery-fullscreen-slideshow" style="height: 100vh;" data-test="gallery-slideshow-full" 
-data-width="full-bleed" data-show-captions="false" data-transition="site-default" 
-data-controls="bullets" data-section-id="5ea95c19b3384b594c4f23f4" 
-data-controller="GalleryFullscreenSlideshow" data-props='{&#10;"width": "full-bleed",&#10;"viewportHeight": 100,&#10;"transition": "site-default",&#10;"controls": "bullets",&#10;"autoplayEnabled": true,&#10;"slideDurationMs": 5000&#10;}'>
-<DIV class="gallery-fullscreen-slideshow-wrapper">
-<DIV class="gallery-fullscreen-slideshow-list">
-
-	<FIGURE class="gallery-fullscreen-slideshow-item" 
-data-slide-url="8tbmb9j3wwfmo8okf4o09ytxvtynf8-gpa63">
-<DIV class="gallery-fullscreen-slideshow-item-wrapper">
-<DIV class="gallery-fullscreen-slideshow-item-src">
-<DIV class="gallery-fullscreen-slideshow-item-img" 
-data-animation-role="image"><IMG alt="villa-rondinelli-florence-home-entrance" 
-data-src="./imgs/1.jpg" 
-data-load="false" data-image-focal-point="0.4,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/1.jpg"></DIV></DIV></DIV></FIGURE>
-
-<FIGURE 
-class="gallery-fullscreen-slideshow-item" data-slide-url="bwon4kqba74wxbtxsfcln2rcomgllu-nm3wx">
-<DIV class="gallery-fullscreen-slideshow-item-wrapper">
-<DIV class="gallery-fullscreen-slideshow-item-src">
-<DIV class="gallery-fullscreen-slideshow-item-img" 
-data-animation-role="image"><IMG alt="villa-rondinelli-florence-home-interiors" 
-data-src="./imgs/2.jpg" 
-data-load="false" data-image-focal-point="0.6,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/2.jpg"></DIV></DIV></DIV></FIGURE>
-
-<FIGURE 
-class="gallery-fullscreen-slideshow-item" data-slide-url="4fppwdz8sdg662037aj40e3w8hf71l-z5w5n">
-<DIV class="gallery-fullscreen-slideshow-item-wrapper">
-<DIV class="gallery-fullscreen-slideshow-item-src">
-<DIV class="gallery-fullscreen-slideshow-item-img" 
-data-animation-role="image"><IMG alt="villa-rondinelli-florence-home-plants" 
-data-src="./imgs/3.jpg" 
-data-load="false" data-image-focal-point="0.3,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/3.jpg"></DIV></DIV></DIV></FIGURE>
-
-<FIGURE 
-class="gallery-fullscreen-slideshow-item" data-slide-url="4fppwdz8sdg662037aj40e3w8hf71l-z5w5n">
-<DIV class="gallery-fullscreen-slideshow-item-wrapper">
-<DIV class="gallery-fullscreen-slideshow-item-src">
-<DIV class="gallery-fullscreen-slideshow-item-img" 
-data-animation-role="image"><IMG alt="villa-rondinelli-florence-home-plants" 
-data-src="./imgs/4.jpg" 
-data-load="false" data-image-focal-point="0.45,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/4.jpg"></DIV></DIV></DIV></FIGURE>
-
-<FIGURE 
-class="gallery-fullscreen-slideshow-item" data-slide-url="4fppwdz8sdg662037aj40e3w8hf71l-z5w5n">
-<DIV class="gallery-fullscreen-slideshow-item-wrapper">
-<DIV class="gallery-fullscreen-slideshow-item-src">
-<DIV class="gallery-fullscreen-slideshow-item-img" 
-data-animation-role="image"><IMG alt="villa-rondinelli-florence-home-plants" 
-data-src="./imgs/5.jpg" 
-data-load="false" data-image-focal-point="0.25,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/5.jpg"></DIV></DIV></DIV></FIGURE>
-
-
-
-</DIV>
-<DIV class="gallery-fullscreen-slideshow-controls">
-<DIV class="gallery-fullscreen-slideshow-control"><BUTTON class="gallery-fullscreen-slideshow-control-btn" 
-aria-label="Previous Slide" data-previous="">
-<DIV class="gallery-fullscreen-slideshow-control-btn-icon"><svg xmlns="http://www.w3.org/2000/svg" 
-class="caret-left-icon--small" viewBox="0 0 9 16"><polyline fill="none" 
-stroke-miterlimit="10" points="7.3,14.7 2.5,8 7.3,1.2" />             
-</svg></DIV></BUTTON>       </DIV>
-<DIV class="gallery-fullscreen-slideshow-control"><BUTTON class="gallery-fullscreen-slideshow-control-btn" 
-aria-label="Next Slide" data-next="">
-<DIV class="gallery-fullscreen-slideshow-control-btn-icon"><svg xmlns="http://www.w3.org/2000/svg" 
-class="caret-right-icon--small" viewBox="0 0 9 16"><polyline fill="none" 
-stroke-miterlimit="10" points="1.6,1.2 6.5,7.9 1.6,14.7" />             
-</svg></DIV></BUTTON>       </DIV></DIV>
-
-</DIV>
-<DIV class="gallery-lightbox-outer-wrapper" data-lightbox="false" 
-data-controller="Lightbox">
-<DIV class="&#10;    gallery-lightbox&#10;    &#10;    black&#10;  " role="dialog" 
-aria-label="Gallery">
-<DIV class="gallery-lightbox-background"></DIV>
-<DIV class="gallery-lightbox-header"><BUTTON class="gallery-lightbox-close-btn" 
-aria-label="Close" data-test="gallery-lightbox-close" data-close="">
-<DIV class="gallery-lightbox-close-btn-icon"><svg xmlns="http://www.w3.org/2000/svg" 
-viewBox="0 0 40 40"><path d="M 4.3 35.7 L 35.7 4.3" />         <path d="M 4.3 4.3 l 31.4 31.4" 
-/>       </svg>     </DIV></BUTTON> </DIV>
-<DIV class="gallery-lightbox-wrapper">
-<DIV class="gallery-lightbox-list"><FIGURE class="gallery-lightbox-item" 
-data-test="gallery-lightbox-item" data-slide-url="8tbmb9j3wwfmo8okf4o09ytxvtynf8-gpa63">
-<DIV class="gallery-lightbox-item-wrapper">
-<DIV class="gallery-lightbox-item-src">
-<DIV class="&#10;                  gallery-lightbox-item-img&#10;                  content-fit&#10;                "><IMG 
-alt="villa-rondinelli-florence-home-entrance" data-src="./imgs/1.jpg" 
-data-load="false" data-image-focal-point="0.4,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/1.jpg"> 
-                                              </DIV></DIV></DIV></FIGURE>        
-       <FIGURE class="gallery-lightbox-item" data-test="gallery-lightbox-item" 
-data-slide-url="bwon4kqba74wxbtxsfcln2rcomgllu-nm3wx">
-<DIV class="gallery-lightbox-item-wrapper">
-<DIV class="gallery-lightbox-item-src">
-<DIV class="&#10;                  gallery-lightbox-item-img&#10;                  content-fit&#10;                "><IMG 
-alt="villa-rondinelli-florence-home-interiors" data-src="./imgs/2.jpg" 
-data-load="false" data-image-focal-point="0.6,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/2.jpg"> 
-                                              </DIV></DIV></DIV></FIGURE>        
-       <FIGURE class="gallery-lightbox-item" data-test="gallery-lightbox-item" 
-data-slide-url="4fppwdz8sdg662037aj40e3w8hf71l-z5w5n">
-<DIV class="gallery-lightbox-item-wrapper">
-<DIV class="gallery-lightbox-item-src">
-<DIV class="&#10;                  gallery-lightbox-item-img&#10;                  content-fit&#10;                "><IMG 
-alt="villa-rondinelli-florence-home-plants" data-src="./imgs/3.jpg" 
-data-load="false" data-image-focal-point="0.3,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/3.jpg"> 
-                                              </DIV></DIV></DIV></FIGURE>   
-
-        <FIGURE class="gallery-lightbox-item" data-test="gallery-lightbox-item" 
-data-slide-url="4fppwdz8sdg662037aj40e3w8hf71l-z5w5n">
-<DIV class="gallery-lightbox-item-wrapper">
-<DIV class="gallery-lightbox-item-src">
-<DIV class="&#10;                  gallery-lightbox-item-img&#10;                  content-fit&#10;                "><IMG 
-alt="villa-rondinelli-florence-home-plants" data-src="./imgs/4.jpg" 
-data-load="false" data-image-focal-point="0.45,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/4.jpg"> 
-                                              </DIV></DIV></DIV></FIGURE>   
-
-        <FIGURE class="gallery-lightbox-item" data-test="gallery-lightbox-item" 
-data-slide-url="4fppwdz8sdg662037aj40e3w8hf71l-z5w5n">
-<DIV class="gallery-lightbox-item-wrapper">
-<DIV class="gallery-lightbox-item-src">
-<DIV class="&#10;                  gallery-lightbox-item-img&#10;                  content-fit&#10;                "><IMG 
-alt="villa-rondinelli-florence-home-plants" data-src="./imgs/5.jpg" 
-data-load="false" data-image-focal-point="0.25,0.5" data-image-dimensions="2500x1667" 
-data-image="./imgs/5.jpg"> 
-                                              </DIV></DIV></DIV></FIGURE>
-
-
-
-   </DIV>
-<DIV class="gallery-lightbox-controls" data-test="gallery-lightbox-controls">
-<DIV class="gallery-lightbox-control" data-test="gallery-lightbox-control-previous" 
-data-previous=""><BUTTON class="gallery-lightbox-control-btn" aria-label="Previous Slide">
-<DIV class="gallery-lightbox-control-btn-icon"><svg xmlns="http://www.w3.org/2000/svg" 
-class="caret-left-icon--small" viewBox="0 0 9 16"><polyline fill="none" 
-stroke-miterlimit="10" points="7.3,14.7 2.5,8 7.3,1.2" />         
-</svg></DIV></BUTTON>    </DIV>
-<DIV class="gallery-lightbox-control" data-test="gallery-lightbox-control-next" 
-data-next=""><BUTTON class="gallery-lightbox-control-btn" aria-label="Next Slide">
-<DIV class="gallery-lightbox-control-btn-icon"><svg xmlns="http://www.w3.org/2000/svg" 
-class="caret-right-icon--small" viewBox="0 0 9 16"><polyline fill="none" 
-stroke-miterlimit="10" points="1.6,1.2 6.5,7.9 1.6,14.7" />         
-</svg></DIV></BUTTON>   
-</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></SECTION>       
+<DIV class="content" style="width: 100%;">
+<DIV class="sqs-layout sqs-grid-12 columns-12" id="page-section-5ea961b0442ee60269cee577" 
+data-type="page-section">
+<DIV class="row sqs-row">
+<DIV class="col sqs-col-12 span-12">
+<DIV class="sqs-block code-block sqs-block-code" id="block-c42ee80eadd046319c99" 
+data-block-type="23">
+<DIV class="sqs-block-content">
+<META name="viewport" content="width=device-width, initial-scale=1"> 
+<STYLE>
+ 
+  .arrow-parent{
+  text-align: center
+   
+  }
+  
+.arrow-down {
+  margin-right: auto ;
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 20px;
+ transform: rotate(45deg) ;
+  -webkit-transform: rotate(45deg) ;  
+  z-index: 99999999;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-delay: 0.24s;
+}
+  
+</STYLE>
+   
+<DIV class="image-inset content-fit preSlide slideIn" style="transition-duration: 1.2s; transition-timing-function: ease; transition-delay: 0.24s;" 
+data-animation-role="image" data-description="">
+<DIV class="arrow-parent"><I class="arrow-down"></I>   
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></SECTION>            
 
 
 
